@@ -1,0 +1,95 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>{dede:field.title/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/chloesy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script><![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+
+
+
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/nav.js"></script>
+<div class="hd04 h0 h8"><i></i><a href="" title="查看更多 加盟店世界茶饮奶茶加盟店"><span>世界茶饮全国门店分布600多家，打造中国奶茶行业第一品牌！</span>
+  <h2>加盟店世界茶饮加盟店分布</h2>
+  </a></div>
+<div class="nav4">
+</div>
+<div class="wp">
+  <div class="md08">
+    <div class="bd">
+ <div class="r01">
+
+
+</div>
+
+      <!--/r-->
+      <div class="l1"><span></span>
+        <img src="{dede:field.litpic/}" />
+      </div>
+      <div class="l2">
+        <h1>{dede:field.title/}</h1>
+        加盟店类型：标准店<br />  
+		加盟店区域：商圈<br />  
+        上传日期：{dede:field.pubdate function="MyDate('Y-m-d',@me)"/}<br />
+        浏览人气：<span id="count"><script src="../../plus/count.php-view=yes&aid=182&mid=1" type='text/javascript' language="javascript"></script></span>{dede:field.click/}<br />
+        <span class="sia">
+        </span></div>
+      <!--/l2-->
+    </div>
+    <!--/bd-->
+    
+    <div class="lf08">
+      <img src="{dede:field.litpic/}" />   
+    </div>
+  </div>
+  <!--/md08-->
+  <div class="main_p">
+    <div class="bd">
+       <div class="cnt_tag">
+         <div class="tag">标签： </div>
+       </div>
+      <div class="cntL">
+        
+        <div class="post-nav">
+           <div class="l">{dede:prenext get='pre'/}</div>
+          <div class="r">{dede:prenext get='next'/}</div>
+        </div>
+        <!--/post-nav-->
+        <div class="newline"></div>
+        <h4 class="art_h4">你可能会喜欢</h4>
+        <div class="art">
+          <ul>
+            {dede:arclist}
+            <li><a href="[field:arcurl/]" onMouseOver="" onMouseOut="UnTip()"><img src="[field:picname/]" alt="[field:title/]" /><em>[field:click/]</em></a></li>
+            {/dede:arclist}
+          </ul>
+          <div class="c"></div>
+        </div>
+        <!--/art -->
+      </div>
+      <!--/cntL-->
+     
+      <!--/comment -->
+    </div>
+    <!--/bd-->
+  </div>
+<!--/main_p-->
+</div>
+<!--/wp-->
+<!--/page-->
+{dede:include filename="foot.htm"/}
+</body>
+</html>
+
+
+

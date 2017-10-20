@@ -1,0 +1,238 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/chloesy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script><![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="ilankpic">
+  <div class="i"><a class="prev" href="javascript:;"></a><a class="next" href="javascript:;"></a></div>
+  <ul class="bd">
+   <li style="background-image:url({dede:global.cfg_medias_dir/}/allimg/170706/1.jpg)"><a href="" title="世界茶饮官方招商页"></a></li>
+<li style="background-image:url({dede:global.cfg_medias_dir/}/allimg/170706/2.jpg)"><a href="" title="世界茶饮官方招商页"></a></li>
+<li style="background-image:url({dede:global.cfg_medias_dir/}/allimg/170706/3.jpg)"><a href="" title="世界茶饮官方招商页"></a></li>
+ 
+  </ul>
+  <ul class="hd"><li></li></ul>
+</div>
+<div class="sc8">
+  <div class="hd"><a class="prev" href="javascript:;"></a><a class="next" href="javascript:;"></a></div>
+  <div class="c"></div>
+</div>
+<!--/sc8-->
+<div class="hd04"><i></i><a href="" title="查看更多 世界茶饮新闻动态"><span>世界茶饮专注于奶茶行业，只为打造全球奶茶第一品牌！</span>
+  <h2>世界茶饮奶茶加盟店最新资讯</h2>
+  </a></div>
+<div class="news">
+  <ul class="bd">
+    {dede:arclist row=3 titlelen=32 typeid='4' limit='0,3'}
+    <li><a href="" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" /></a></li>
+    {/dede:arclist}
+  </ul>
+  <ul class="hd">
+    {dede:arclist row=3 titlelen=32 typeid='4' limit='0,3'}
+    <li>
+      <a href="[field:arcurl/]" title="[field:title/]">
+      <h3>[field:title/]</h3>
+      <i>WORLD-TEA LOVING SERVICE</i>
+      <p>[field:description/]</p>
+      </a>
+    </li>
+    {/dede:arclist}
+  </ul>
+</div>
+<!--news-->
+
+<div class="hd04 h8"><i></i><a href="" title="查看更多 世界茶饮奶茶加盟店"><span>世界茶饮全国门店分布600多家，打造中国奶茶行业第一品牌！</span>
+  <h2>世界茶饮加盟店分布</h2>
+  </a></div>
+<div class="nav4">
+  <ul style=" width: 1000px; margin: 0 auto;">
+    {dede:channel type="son" typeid="1"}
+    <li><a href="[field:typeurl/]">[field:typename/]加盟店</a></li>
+    {/dede:channel}
+  </ul>
+</div>
+<div class="sc1">
+  <ul>
+    {dede:arclist row=8 titlelen=32 typeid='1' limit='0,8'}
+    <li><a href="[field:arcurl/]">
+      <div class="t1"><img class="lz" src="[field:picname/]" alt="[field:title/]"/><span>
+        <h3>< [field:title/] ></h3>
+        <i>加盟店类型：旗舰店</i></span>
+        <p>世界茶饮<br>
+          致力打造中国奶茶第一品牌</p>
+      </div>
+      <div class="t2">
+        <h3>[field:title/]</h3>
+        <h4>加盟店区域： 商圈</h4>
+      </div>
+    </a></li>
+    {/dede:arclist}
+  </ul>
+  <div class="c"></div>
+</div>
+<!--/sc1-->
+
+<!--/sc9地点推荐-->
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.scrollloading.js"></script>
+<div class="hd04 h7"><i></i><a href="apinpai/index.htm" title="查看更多 世界茶饮营销"><span>世界茶饮无处不在，喝的到看得到</span>
+  <h2>世界茶饮营销渠道</h2>
+  </a></div>
+<div class="nav4">
+  <ul>  
+    {dede:channel type="son" typeid="2"}
+    <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+</div>
+<div class="sc1">
+  <ul>
+    {dede:arclist row=8 titlelen=32 typeid='2' limit='0,8'}
+    <li><a href="[field:arcurl/]">
+      <div class="t1"><img class="lz" src="[field:picname/]" alt="[field:title/]"/><span>
+        <h3>< [field:title/] ></h3>
+        </span>
+        <p>WORLDTEA-HOUSE BUILD THE FIRST BRAND OF MILK TEA INDUSTRY
+      </div>
+      <div class="t2">
+        <h3>[field:title/]</h3>
+        <span>[field:pubdate function="GetDateTimeMK(@me)" /]</span>
+      </div>
+    </a></li>
+    {/dede:arclist}
+  </ul>
+    
+  </ul>
+  <div class="c"></div>
+</div>
+<!--/sc1-->
+<!--<div class="hd04 h2"><i></i><a href="apinpai/shipin/index.htm" title="查看更多 海外微电影作品"><span>世界茶饮官方宣传片视频</span>
+  <h2>世界茶饮宣传片视频</h2>
+  </a></div>
+<div class="sc2">
+  <ul>
+<li><a href="apinpai/shipin/98.html">
+      <div class="t1"><img class="lz" src="{dede:global.cfg_templets_skin/}/images/z.gif" data-src="uploads/170517/1-1F51GPHQE.jpg" alt="世界茶饮品牌宣传片"/><span></span></div>
+    
+      </a></li>
+
+  </ul>
+</div>-->
+<!--/sc2-->
+<div class="s2">
+
+</div>
+<!--/s2-->
+<div class="hd04 h3"><i></i><a href="" title="查看更多 美味产品"><span>世界茶饮用匠心做好每一杯茶！</span>
+  <h2>世界茶饮奶茶产品</h2>
+  </a></div>
+<div class="nav4">
+  <ul>
+    {dede:channel type="son" typeid="3"}
+    <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+</div>
+<div class="sc1">
+   <ul>
+    {dede:arclist row=8 titlelen=32 typeid='3' limit='0,8'}
+    <li><a href="[field:arcurl/]">
+      <div class="t1"><img class="lz" src="[field:picname/]" alt="[field:title/]"/><span>
+        <h3>< [field:title/] ></h3>
+       </span>
+        <p>WORLDTEA-HOUSE BUILD THE FIRST BRAND OF MILK TEA INDUSTRY</p>
+      </div>
+      <div class="t2">
+        <h3>[field:title/]</h3>
+        <span>[field:pubdate function="GetDateTimeMK(@me)" /]</span>
+        <h4>奶茶种类：[field:typelink/]</h4>
+      </div>
+    </a></li>
+    {/dede:arclist}
+  </ul>
+  <div class="c"></div>
+</div>
+<!--/sc1-->
+<!--/wb-->
+<div class="hd04 h4"><i></i><a href="" title="查看更多 奶茶加盟店类型"><span>一对一专属服务，加盟我们，为梦想添动力</span>
+  <h2>奶茶加盟店类型选择</h2>
+  </a></div>
+<div class="sc3">
+  <ul>
+<li><a href="javascript:void(0);"><img class="lz" src="http://www.worldtea-house.com/uploads/mendian/170517/1-1F51G61350934.jpg" alt="世界茶饮标准店"/><span></span>
+      <h3>世界茶饮标准店</h3>
+      <i>15平米</i></a></li>
+<li><a href="javascript:void(0);"><img class="lz" src="http://www.worldtea-house.com/uploads/mendian/170517/1-1F51G63F3215.jpg" alt="世界茶饮豪华店"/><span></span>
+      <h3>世界茶饮豪华店</h3>
+      <i>50平米</i></a></li>
+<li><a href="javascript:void(0);"><img class="lz" src="http://www.worldtea-house.com/uploads/170517/1-1F51G64013526.jpg" alt="世界茶饮主题店"/><span></span>
+      <h3>世界茶饮主题店</h3>
+      <i>20平米</i></a></li>
+<li><a href="javascript:void(0);"><img class="lz" src="http://www.worldtea-house.com/uploads/mendian/170517/1-1F51G635251B.jpg" alt="世界茶饮旗舰店"/><span></span>
+      <h3>世界茶饮旗舰店</h3>
+      <i>30平米</i></a></li>
+
+    
+  </ul>
+  <div class="c"></div>
+</div>
+<!--/sc3价格-->
+<div class="hd04 h5"><i></i><a href="" title="查看更多 最新资讯"><span>关注奶茶行业最新事件，跟上时代的脚步！</span>
+  <h2>世界茶饮奶茶行业最新资讯</h2>
+  </a></div>
+<div class="sc6">
+  <ul class="hd">
+    {dede:channel type="son" typeid="4" row="3"}
+    <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+  <div class="bd">
+    <ul>
+      {dede:arclist row=8 titlelen=32 typeid='4' limit='0,8'}
+      <li><a href="[field:arcurl/]"><img class="lz" src="[field:picname/]" alt="[field:title/]"/>
+        <h3>[field:title/]</h3>
+        <span>[field:pubdate function="GetDateTimeMK(@me)" /]</span>
+        <p> [field:title/]</p>
+        <i></i><b></b></a>
+      </li>
+      {/dede:arclist}
+    </ul>
+  </div>
+</div>
+<!--/sc6新闻-->
+<div class="hd04 h6"><i></i><a href="" title="查看更多 品牌介绍"><span>打造中国奶茶第一品牌,一站式奶茶店加盟！</span>
+  <h2>品牌优势</h2>
+  </a></div>
+<div class="sc7">
+  <ul>
+    <li><a href="guanyu/pinpai/index.htm"><span class="n1"></span>
+      <h3>一站式奶茶加盟店</h3>
+      <p>省时，省心，省力</p></a></li>
+    <li><a href="ajoin/index.htm"><span class="n2"></span>
+      <h3>没有隐形消费</h3>
+      <p>打包加盟费10万，不另外收费</p></a></li>
+    <li><a href="haoping/index.htm"><span class="n3"></span>
+      <h3>坚持品牌推广</h3>
+      <p>火车站，公交车，世界茶饮无处不在</p></a></li>
+    <li><a href="naicha/index.htm"><span class="n4"></span>
+      <h3>以实力说话</h3>
+      <p>世界茶饮奶茶加盟商们都赚了</p></a></li>
+  </ul>
+  <div class="c"></div>
+</div>
+{dede:include filename='foot.htm'/}
+</body>
+</html>
+
+
+

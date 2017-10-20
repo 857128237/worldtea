@@ -1,0 +1,29 @@
+@charset "utf-8";
+*{margin:0;padding:0}
+body{font-size:12px}
+.ofm{padding:0 0 40px;margin-top:20px}
+.ofm .txt{margin:0 20px 30px;line-height:30px;font-size:14px}
+.ofm table{width:550px;line-height:35px;font-family:"微软雅黑";font-size:14px;color:#272525;margin:0 auto}
+.ofm input.a,.ofm select{width:149px;height:23px;line-height:23px;color:#333;margin-left:8px}
+.ofm input.a{background:url("../images/input_a.gif"/*tpa=http://www.worldtea-house.com/statics/images/input_a.gif*/) center right no-repeat;border:none;padding:0 4px;width:141px}
+.ofm .ta{width:481px;height:96px;background:url("../images/texta.gif"/*tpa=http://www.worldtea-house.com/statics/images/texta.gif*/) no-repeat;margin-left:8px;padding:2px 2px 1px 0}
+.ofm .ta textarea{width:473px;padding:0 4px;height:95px;border:none;overflow:auto;background:none;line-height:23px;color:#333}
+.ofm input.btn{width:70px;height:25px;line-height:25px;font-family:"微软雅黑";color:#353535;font-size:14px;border:none;background:url("../images/btn_1.gif"/*tpa=http://www.worldtea-house.com/statics/images/btn_1.gif*/);cursor:pointer;margin:0 8px;text-align:center}
+.ofm td{text-align:left}
+
+/* date*/
+.datepicker{border-collapse:collapse;border:2px solid #999;position:absolute;z-index:100}
+.controls th{padding-top:2px}
+.datepicker tr.controls th{height:22px;font-size:12px;text-align:center}
+.datepicker .days th{text-align:center}
+.datepicker select{font-size:12px}
+.datepicker tr.days th{height:18px}
+.datepicker tfoot td{height:18px;text-align:center;text-transform:capitalize}
+.datepicker th,.datepicker tfoot td{background:#eee;font:12px/18px Verdana, Arial, Helvetica, sans-serif}
+.datepicker th span,.datepicker tfoot td span{font-weight:700}
+.datepicker tbody td{width:24px;height:24px;border:1px solid #ccc;font:12px/22px Arial, Helvetica, sans-serif;text-align:center;background:#fff}
+.datepicker tbody td.date{cursor:pointer}
+.datepicker tbody td.date.over{background-color:#9ff}
+.datepicker tbody td.date.chosen{font-weight:700;background-color:#cfc}
+.today,.close{font-family:"微软雅黑"}
+.one{cursor:text}

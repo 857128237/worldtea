@@ -1,0 +1,87 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>{dede:field.seotitle /}</title>
+<meta name="keywords" content="{dede:field name=keywords/}" />
+<meta name="description" content="{dede:field name=description function=html2text(@me)/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/chloesy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script><![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+
+
+<div class="hd04 h0 h4"><i></i><a href="" title="查看更多 加盟详情奶茶加盟店计划"><span>一对一专属服务，加盟我们，为梦想添动力！</span>
+  <h2>加盟详情奶茶加盟店计划</h2>
+  </a></div>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/nav.js"></script>
+<div style="display:none"><img src="{dede:global.cfg_templets_skin/}/images/ii.png"/></div>
+<div class="wp">
+    <div class="main">
+      <div class="bd">
+        <ul class="list_p lis1">
+            {dede:list pagesize="4"}
+		        <li><a href="[field:arcurl/]"><img src="[field:picname/]" alt="[field:title/]" />
+            <h3>[field:title/]</h3>
+            <span class="p3"></span></a>
+            <p>[field:description/]<a href="[field:arcurl/]" title="点击查看详细" class="more">详细</a></p>
+            </li>
+            {/dede:list}
+        </ul>
+      </div>
+<div class="page">
+{dede:pagelist istitem="index,pre,next,end,option," listsize="5"/}
+</div>
+<!--/page-->
+      <!--/bd-->
+    </div>
+    <!--/main-->
+    <div class="side">
+      <div class="md02">
+      <div class="hd">
+          <p></p>
+          <h3><a href="">SERVICE</a></h3></div>
+      <div class="bd">
+        <ul class="nav2">
+          {dede:channel type='son' noself='yes' typeid=5  currentstyle="<li class='on'><a href='~typelink~'><span>ONE</span>~typename~</a></li>"}
+          <li><a href="[field:typelink/]"><span>ONE</span>[field:typename/]</a></li>
+			    {/dede:channel}
+        </ul>
+      </div>
+      <!--/bd-->
+    </div>
+      <!--/md02-->
+       <div class="bd01">
+        <div class="md03">
+          <p>Hotline / 热线电话</p>
+          <div class="te">咨询热线：<span>400-678-6888</span><br />
+           
+          <p>Online Service / 在线客服</p>
+          <ul class="qa">
+             <li class="v"><a href="javascript:;" title="点击qq944017797交谈"><i onClick=""><span>qq</span></i></a></li>
+            <li class="w"><a href="javascript:;" title="点击qq944017797交谈"><i onClick=""><span>qq</span></i></a></li>
+            <li class="x"><a href="javascript:;" title="点击qq944017797交谈"><i onClick=""><span>qq</span></i></a></li>
+           
+          </ul>
+          <div class="c"></div>
+          <p>Hours / 服务时间<br />
+            <strong>8:00 AM - 23：00 PM</strong></p>
+        </div>
+        <!--/md03--> 
+      </div>
+      <!--/bd01-->
+    </div>
+    <!--/side-->
+    <div class="c"></div>
+  </div>
+  </div>
+  <!--wp-->
+{dede:include filename="foot.htm"/}
+</body>
+</html>

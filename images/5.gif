@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>世界茶饮官网_世界茶饮奶茶加盟连锁_世界茶饮</title>
+        <meta name="keywords" content="世界茶饮,世界茶饮官网,世界茶饮加盟,world tea house">
+        <meta name="description" content="世界茶饮是台湾纯正的茶饮品牌，2006年正式成立，经历10年的发展，目前在杭州、上海、武汉、东莞、深圳、南京、苏州、徐州、无锡、温州、南通、常州、宁波等40多个市县都已经有门店在运营， 全国有600多家门店，是茶饮行业优秀的老牌企业。">
+        <meta http-equiv="Cache-Control" content="no-siteapp">
+        <meta http-equiv="Cache-Control" content="no-transform">
+        <!--<base target="_blank">-->
+        <base href="." target="_blank">
+        <link href="http://www.worldtea-house.com/404/css/404.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="contain-404">
+            <div class="btn-panel">
+            	<a href="http://www.worldtea-house.com/" class="btn-a btn-home" target="_self">返回首页 </a>
+            </div>
+        </div>
+    </body>
+</html>

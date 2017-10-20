@@ -1,0 +1,16 @@
+@charset "utf-8";/* CSS Design By iLank,www.sunge.cn*/
+*{margin:0;padding:0}
+html{overflow-x:hidden;overflow-y:hidden}
+body{font-size:12px}
+ol,ul{list-style:none}
+a{text-decoration:none;display:inline}
+.tc{width:864px;height:397px;background:url("../images/weixin.png"/*tpa=http://www.worldtea-house.com/statics/images/weixin.png*/) no-repeat;position:relative}
+.tc a{position: absolute;
+    width: 350px;
+    height: 250px;
+    display: block;
+    color: #666;
+    font-size: 14px;
+    font-family: Arial;}
+.tc a:hover{color:#c93}
+a.q1{left:16px;top:121px}

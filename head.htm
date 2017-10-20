@@ -1,0 +1,21 @@
+<!--/top -->
+<div class="head"><i></i>
+  <div class="logo">
+    <h1><a href="/" title="世界茶饮官网_奶茶加盟店">世界茶饮官网_奶茶加盟店</a></h1>
+  </div>
+  <div id="nav">
+    <ul>
+      <li {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='on' ":@me="";{/dede:field}><a href="/"><b>网站首页</b><span>HOME</span></a></li>
+
+
+      {dede:channelartlist row='7' typeid='top' currentstyle="<li class='on'><a href='~typelink~'>~typename~</a></li>"}
+	    <li><a href="{dede:field name='typeurl'/}" {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='on' ":@me="";{/dede:field}><b>{dede:field name='typename'/}</b><span>WORLD TEA</span></a>
+      </li>
+      {/dede:channelartlist}
+
+      
+    </ul>
+  </div>
+  <!--/nav--> 
+</div>
+<!--/head -->

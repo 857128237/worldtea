@@ -1,0 +1,169 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>{dede:field.title/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/chloesy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script><![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+
+<div class="hd04 h0 h4"><i></i><a href="" title="查看更多 实地考察奶茶加盟店计划"><span>一对一专属服务，加盟我们，为梦想添动力！</span>
+  <h2>实地考察奶茶加盟店计划</h2>
+  </a></div>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/nav.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.ilank.js"></script> 
+<div style="display:none"></div>
+<div class="wp">
+    <div class="main">
+      <div class="bd">
+        <div class="cntL">
+          <div class="md_pr">
+            
+            <div class="l1"><span></span><img src="{dede:field.litpic/}" alt="{dede:field.title/}" /></div>
+            <div class="l2">
+              <h1>{dede:field.title/}</h1>
+             浏览人气：{dede:field.click/}</div>
+            <!--/l2-->
+            <div class="c"></div>
+          </div>
+          <!--/md_pr-->
+          <div class="cntL_bd pri">
+            <div id="bx1" class="bx ofm" style="display:none">
+           <script>
+  (function(o){
+     var w="100%",h="100%";
+     if(typeof(o.width)!="undefined"){w=o.width;}
+	 if(typeof(o.height)!="undefined"){h=o.height;}
+	 if(w.indexOf("%")==-1){w=w+"px";}
+	 if(h.indexOf("%")==-1){h=h+"px";}
+	 var laiyuan_title=document.title;
+	 var laiyuan_url=String(document.location);
+     document.writeln('<iframe style="width:'+w+';height:'+h+';" src="'+o.url+'?laiyuan_title='+encodeURI(laiyuan_title)+'&laiyuan_url='+laiyuan_url+'"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>');
+   })({height:"400",url:"../../liuyan/index.php.htm"/*tpa=http://www.worldtea-house.com/liuyan/index.php*/});
+</script>
+
+   <script>
+   function TopicShow(e,TopicID){
+e.className=(e.className=="BttnC")?"BttnE":"BttnC"
+document.getElementById(TopicID).style.display=(e.className=="BttnC")?"":"none"
+}//显示隐藏层
+function checkForm()
+{
+	if($('#name').val()=='')
+	{
+		alert('提示：请输入联系人姓名！');
+        $('#name').focus();
+		return false;	
+	}
+	else if($('#tel').val()=='')
+	{
+		alert('提示：请输入您的电话号码！');
+		$('#tel').focus();
+		return false;	
+	}
+        else if(!$('#tel').val().match(/^1[3|4|5|8][0-9]\d{4,8}$/))
+	{
+		alert('提示：手机号码不是数字！');
+		$('#tel').focus();
+		return false;	
+	}
+        else if($('#tel').val().length!=11)
+	{
+		alert('提示：号码不是11位！');
+		$('#tel').focus();
+		return false;	
+	}
+	else if($('#qq').val()=='')
+	{
+		alert('提示：请输入您的QQ！');
+		$('#qq').focus();
+		return false;	
+	}
+	else if($('#content').val()=='')
+	{
+		alert('提示：请输入您的留言内容！');
+		$('#content').focus();
+		return false;	
+	}
+	return true;
+}
+</script>
+</div>
+<!--/bx1-->
+<div>
+
+<img src="{dede:field.litpic/}" alt="{dede:field.title/}" /><br />
+<p style="text-align: center;">{dede:field.title/}</p>
+</div>
+          <div class="manu"></div>
+          <!--/manu 分页-->
+          <div class="cnt_tag">
+            <div class="tag">标签：</div>
+            <h3 class="ContentAuthor">来源：{dede:field.source/}</h3>
+          </div>
+          <div class="post-nav">
+            <div class="l">{dede:prenext get='pre'/}</div>
+          <div class="r">{dede:prenext get='next'/}</div>
+          </div>
+          <!--/post-nav-->
+        </div>
+        <!--/cntL--> 
+      </div>
+      <!--/bd--> 
+    </div>  </div>
+    <!--/main-->
+    <div class="side">
+      <div class="md02">
+      <div class="hd">
+          <p></p>
+          <h3><a href="index.htm">SERVICE</a></h3></div>
+        <div class="bd">
+         <ul class="nav2">
+          {dede:channel type='son' noself='yes' typeid=5}
+          <li><a href="[field:typelink/]"><span>ONE</span>[field:typename/]</a></li>
+          {/dede:channel}			 
+        </ul>
+        </div>
+        <!--/bd--> 
+      </div>
+      <!--/md02-->
+       <div class="bd01">
+        <div class="md03">
+          <p>Hotline / 热线电话</p>
+          <div class="te">咨询热线：<span>400-678-6888</span><br />
+           
+          <p>Online Service / 在线客服</p>
+          <ul class="qa">
+             <li class="v"><a href="javascript:;" title="点击qq944017797交谈"><i onClick=""><span>qq</span></i></a></li>
+            <li class="w"><a href="javascript:;" title="点击qq944017797交谈"><i onClick=""><span>qq</span></i></a></li>
+            <li class="x"><a href="javascript:;" title="点击qq944017797交谈"><i onClick=""><span>qq</span></i></a></li>
+           
+          </ul>
+          <div class="c"></div>
+          <p>Hours / 服务时间<br />
+            <strong>8:00 AM - 23：00 PM</strong></p>
+        </div>
+        <!--/md03--> 
+      </div>
+      <!--/bd01--> 
+    </div>
+    <!--/side-->
+    <div class="c"></div>
+  </div>
+</div>
+  <!--wp--> 
+{dede:include filename="foot.htm"/}
+</body>
+</html>
+
+
+

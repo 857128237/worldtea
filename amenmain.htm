@@ -1,0 +1,60 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>{dede:field.seotitle /}</title>
+<meta name="keywords" content="{dede:field name=keywords/}" />
+<meta name="description" content="{dede:field name=description function=html2text(@me)/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/chloesy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script><![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+
+
+
+
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/nav.js"></script>
+<div class="hd04 h0 h8"><i></i><a href="" title="查看更多 加盟店世界茶饮奶茶加盟店"><span>世界茶饮全国门店分布600多家，打造中国奶茶行业第一品牌！</span>
+  <h2>加盟店世界茶饮加盟店分布</h2>
+  </a></div>
+<div class="nav4">
+  <ul style=" width: 1000px; margin: 0 auto;">
+    {dede:channel type='son' noself='yes' typeid='1' currentstyle="<li class='on'><a href='~typelink~'>~typename~</a></li>"}
+    <li><a href="[field:typelink/]">[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+</div>
+<div class="sc1" id="sc1">
+  <ul>
+    {dede:list pagesize="12"}
+    <li><a href="[field:arcurl/]">
+      <div class="t1"><img src="[field:picname/]" alt="[field:title/]"/><span>
+        <h3>< [field:title/] ></h3>
+        <i>加盟店类型：标准店</i></span>
+      </div>
+      <div class="t2">
+        <h3>[field:title/]</h3>
+        <span>[field:pubdate function="MyDate('Y-m-d',@me)" /]</span>
+        <h4>加盟店区域：商圈</h4>
+      </div>
+    </a></li>
+    {/dede:list}
+  </ul>
+</div>
+<!--/sc1-->
+<div class="page">
+{dede:pagelist istitem="index,pre,next,end,option," listsize="5"/}
+</div>
+<!--/page-->
+{dede:include filename="foot.htm"/}
+</body>
+</html>
+
+
+

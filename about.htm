@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>{dede:field.seotitle /}</title>
+<meta name="keywords" content="{dede:field name=keywords/}" />
+<meta name="description" content="{dede:field name=description function=html2text(@me)/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/chloesy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script><![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+
+
+
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/nav.js"></script>
+<div class="hd04 h0 h6"><i></i><a href="" title="查看更多 品牌介绍"><span>坚持口碑营销,做时尚奶茶！</span>
+  <h2>品牌介绍</h2>
+  </a></div>
+<div class="nav4">
+  <ul>
+	{dede:channel type='son' noself='yes' typeid=6 currentstyle="<li class='on'><a href='~typelink~'>~typename~</a></li>"}	
+	<li><a href="[field:typelink/]" >[field:typename/]</a></li>
+	{/dede:channel}
+  </ul>
+</div>
+<div class="abt">
+{dede:field.content/}
+</div>
+<!--/abt-->
+{dede:include filename="foot.htm"/}
+</body>
+</html>

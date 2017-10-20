@@ -1,0 +1,732 @@
+@charset "utf-8";/* CSS Design By iLank,www.sunge.cn*/
+/* CSS Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+fieldset,img,abbr,acronym{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none}
+address,caption,cite,code,dfn,em,var{font-weight:normal;font-style:normal;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{/*font-weight:normal;*/font-size:100%}
+q:before,q:after{content:'';}
+a{color:#666;text-decoration:none}
+a:hover{color:#c67e12;text-decoration:none}
+img.lz,.new img,.sc1 img,.l1 img,.sc4 img,#WzTtDiV img,.sc0 img,#g_mv,.abt img{background:#eee url("../images/load.gif"/*tpa=http://www.worldtea-house.com/statics/images/load.gif*/) no-repeat center center}
+.c,.clean{clear:both;height:0;font-size:1px;line-height:0}
+.outline,.ilankpic .bd a,#nav2 a,.nav2 a{blr:expression(this.onFocus=this.blur());outline:none}
+.none{display:none}
+input,textarea{outline:none}
+@font-face {font-family: 'AlternateGothic2BTRegular';src: url("f/altgot2n-webfont.eot"/*tpa=http://www.worldtea-house.com/statics/css/f/altgot2n-webfont.eot*/);src: url("f/altgot2n-webfont.eot-#iefix"/*tpa=http://www.worldtea-house.com/statics/css/f/altgot2n-webfont.eot?#iefix*/) format('embedded-opentype'),url("f/altgot2n-webfont.woff"/*tpa=http://www.worldtea-house.com/statics/css/f/altgot2n-webfont.woff*/) format('woff'),url("f/altgot2n-webfont.ttf"/*tpa=http://www.worldtea-house.com/statics/css/f/altgot2n-webfont.ttf*/) format('truetype'),url("f/altgot2n-webfont.svg#AlternateGothic2BTRegular"/*tpa=http://www.worldtea-house.com/statics/css/f/altgot2n-webfont.svg#AlternateGothic2BTRegular*/) format('svg');font-weight: normal;font-style:normal}
+@font-face{font-family:'Copperplate Gothic Light';src:url("f/coprgtl-webfont.eot"/*tpa=http://www.worldtea-house.com/statics/css/f/coprgtl-webfont.eot*/);src:url("f/coprgtl-webfont.eot-#iefix"/*tpa=http://www.worldtea-house.com/statics/css/f/coprgtl-webfont.eot?#iefix*/) format('embedded-opentype'),url("f/coprgtl-webfont.woff"/*tpa=http://www.worldtea-house.com/statics/css/f/coprgtl-webfont.woff*/) format('woff'),url("f/coprgtl-webfont.ttf"/*tpa=http://www.worldtea-house.com/statics/css/f/coprgtl-webfont.ttf*/) format('truetype'),url("f/coprgtl-webfont.svg#CopperplateGothicLightRegular"/*tpa=http://www.worldtea-house.com/statics/css/f/coprgtl-webfont.svg#CopperplateGothicLightRegular*/) format('svg');font-weight:normal;font-style:normal}
+.tip_a{background:url("../images/tip.gif"/*tpa=http://www.worldtea-house.com/statics/images/tip.gif*/) no-repeat center 20%;width:319px;height:460px}
+@media screen and (-webkit-min-device-pixel-ratio:0) { #nav a span,#nav2 a span,.news .hd a i,.sc1 .t1 p,.art a em{-webkit-transform:scale(0.775)} }
+
+/*---框架---*/
+.s2,.wb_b,.link,.wp,.works,.sc9 .hd,.abt,.f2 ul{width:1180px;margin:0 auto}
+.news,.news2,.sc0,.sc1,.sc2,.sc3,.sc6 .bd,.sc7,.sc8,.f1 span{width:1180px;margin:0 auto;overflow:hidden}
+.sc1 ul,.sc2 ul,.sc3 ul,.sc6 .bd ul,.sc7 ul,.sc8 ul,.sc9 .hd ul{width:1215px}
+body,.head{min-width:1180px}
+
+/*---头部---*/
+::-webkit-scrollbar{width:9px;background-color:#333}
+::-webkit-scrollbar-thumb{border:solid 2px #333;width:5px;border-radius:4px;background-color:#fc6}
+::-webkit-scrollbar-thumb:hover{background-color:#ff9}
+::-webkit-scrollbar-corner{background-color:#333}
+::-webkit-scrollbar:horizontal{height:9px}
+html{overflow-x:hidden;overflow-y:scroll}
+body{color:#444;font:12px Microsoft Yahei,Verdana,宋体,sans-serif;height:100%;word-break:break-all;-webkit-font-smoothing:antialiased;_background:url("../images/50ccd93314ad4daf88da223621331591.gif"/*tpa=http://www.worldtea-house.com/statics/images/50ccd93314ad4daf88da223621331591.gif*/) fixed}
+/*---导航---*/
+.top{background:#3a4852;height:48px;line-height:48px;font-size:16px;font-weight:300;color:#d1d4d5;text-align:center}
+.top li{display:inline}
+.top .n{background:url("../images/top.png"/*tpa=http://www.worldtea-house.com/statics/images/top.png*/) no-repeat 0 center;padding-left:20px}
+.top .iph{margin:0 20px 0 60px}
+.top .iph a{background:#2e3b44 url("../images/iph.png"/*tpa=http://www.worldtea-house.com/statics/images/iph.png*/) no-repeat 15px center;padding:0 15px 0 45px;border:1px solid #26323a;border-top:none;border-bottom:none}
+.top .iph a:hover{background:#26323a url("../images/iph.png"/*tpa=http://www.worldtea-house.com/statics/images/iph.png*/) no-repeat 15px center}
+.top .sk{color:#eee}
+.top .sk i{font-family:"Impact","Trebuchet MS", Arial, Helvetica, sans-serif;font-style:normal}
+.top a{color:#d1d4d5;display:inline-block;padding:0 12px}
+.top .on a{color:#ff9}
+.top a:hover{color:#fff;background:#c6a16a}
+.head{height:80px;position:absolute;z-index:2;left:0;top:48px;width:100%;background:#657681}
+.head i{position:absolute;left:0;background:#c6a16a;height:4px;overflow:hidden;width:100%}
+.logo{width:186px;height:167px;margin-left:-93px;overflow:hidden;position:absolute;left:50%;top:4px;z-index:2}
+.logo a{background:url("../images/logo.png"/*tpa=http://www.worldtea-house.com/statics/images/logo.png*/) no-repeat;padding-top:180px;display:block}
+#nav{height:80px;text-align:center;width:100%;position:relative;z-index:1;-webkit-box-shadow:0 2px 10px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 10px rgba(0,0,0,0.2);box-shadow:0 2px 10px rgba(0,0,0,0.2)}
+#nav ul{width:1180px;margin:0 auto}
+#nav li{float:left;position:relative}
+#nav li.x{margin-left:251px}
+#nav a{display:block;float:left;height:76px;color:#fff;width:116px;position:relative;padding-top:4px}
+#nav a:hover,#nav .on a,#nav li.sfhover a{padding-top:0;text-decoration:none;border-top:4px solid #fc6;background: #515e67}
+#nav b{font-weight:normal;font-size:16px;margin:21px 0 5px;_margin:24px 0 2px;display:block;position:relative}
+#nav a span{font-size:9px\9;line-height:12px;display:block;font-weight:normal;cursor:pointer;position:relative;color:#c5c9cb}
+#nav li.sfhover span{color:#fff}
+/*---当前分类---*/
+#nav li ul{display:none;position:absolute;top:80px;left:0;width:116px;padding:10px 0;background:url("../images/nav2.png"/*tpa=http://www.worldtea-house.com/statics/images/nav2.png*/) repeat-y;z-index:11}
+/*#nav li:hover ul{display:block}*/
+#nav li ul li{line-height:30px;height:30px;margin:0;background-image:none;position:relative;z-index:2}
+#nav li ul a,#nav li.on ul a,#nav li.sfhover ul a{background:none;font-weight:normal;height:auto;color:#000;line-height:24px;width:110px;margin-left:3px;font-size:12px;float:none;padding:0 0 6px;background:url("../images/nav2.png"/*tpa=http://www.worldtea-house.com/statics/images/nav2.png*/) no-repeat -234px -100px;_background:url("../images/nav2_1.gif"/*tpa=http://www.worldtea-house.com/statics/images/nav2_1.gif*/) no-repeat 0 -30px;border:none}
+#nav li ul a:hover{background:url("../images/nav2.png"/*tpa=http://www.worldtea-house.com/statics/images/nav2.png*/) no-repeat -234px 0;_background:url("../images/nav2_1.gif"/*tpa=http://www.worldtea-house.com/statics/images/nav2_1.gif*/) no-repeat 0 0;color:#fff;font-weight:normal;border:none}
+#nav li ul .t{position:relative;z-index:2;top:14px;left:0;width:116px;height:4px;font-size:0;line-height:0;overflow:hidden;background:url("../images/nav2.png"/*tpa=http://www.worldtea-house.com/statics/images/nav2.png*/) no-repeat -116px 0;_background:url("../images/nav2_2.png"/*tpa=http://www.worldtea-house.com/statics/images/nav2_2.png*/) no-repeat}
+/*---大图---*/
+.ap{margin-top:80px}
+.ap iframe{height:650px;width:100%}
+/*---幻灯片---*/
+.ilankpic{position:relative;height:650px;z-index:1;overflow:hidden;background:#eee url("../images/load.gif"/*tpa=http://www.worldtea-house.com/statics/images/load.gif*/) no-repeat center center;margin-top:80px}
+@media screen and (min-width:1760px){.ilankpic .i{position:relative;left:50%;margin-left:-880px;width:1760px}}
+@media screen and (min-width:2300px){.ilankpic .i{margin-left:-1150px;width:2300px}}
+.ilankpic .i a{width:49px;height:97px;display:block;background:url("../images/ap_../images/i.png"/*tpa=http://www.worldtea-house.com/statics/images/ap_../images/i.png*/) no-repeat;position:absolute;left:2%;top:220px;z-index:2}
+.ilankpic a.next{background-position:-51px 0;left:auto;right:2%}
+.ilankpic .bd{width:3000px;left:50%;margin-left:-1500px;position:relative;height:650px}
+.ilankpic .bd li{float:left;width:100%;height:650px;background-position:center 0;background-repeat:no-repeat}
+.ilankpic .bd a{display:block;height:480px;width:1000px;margin:100px auto 0;position:relative;z-index:2}
+.ilankpic .hd{position:absolute;bottom:20px;z-index:1;width:100%;height:21px;text-align:center;margin:0 auto}
+.ilankpic .hd li{display:inline-block;_display:inline;cursor:pointer;width:21px;height:21px;background:url("../images/ulink.png"/*tpa=http://www.worldtea-house.com/statics/images/ulink.png*/) no-repeat}
+.ilankpic .hd li.on{background-position:-21px 0}
+.ilankpic i{background:url("../images/ap.png"/*tpa=http://www.worldtea-house.com/statics/images/ap.png*/) no-repeat center bottom;height:192px;width:100%;position:absolute;left:0;bottom:0}
+
+/*---小图标---*/
+.sc8{margin-top:50px}
+.sc8 .hd{position:relative;z-index:2}
+.sc8 .prev,.sc8 .next{width:49px;height:97px;display:block;background:url("../images/sc8_3.png"/*tpa=http://www.worldtea-house.com/statics/images/sc8_3.png*/) no-repeat;position:absolute;left:0;top:53px}
+.sc8 .next{background-position:-51px 0;left:1131px}
+.sc8 .prev:hover{background-position:0 -103px}
+.sc8 .next:hover{background-position:-51px -103px}
+.sc8 .bd{width:1020px;height:340px;margin:0 auto;overflow:hidden}
+.sc8 li{float:left;margin-right:70px;width:202px;display:inline;position:relative;text-align:center}
+.sc8 li a{background:url("../images/sc8_2.png"/*tpa=http://www.worldtea-house.com/statics/images/sc8_2.png*/) no-repeat 0 0;display:block;padding-top:40px}
+.sc8 li a:hover{background-position:-208px 0}
+.sc8 span{width:122px;height:122px;display:block;background:url("../images/sc8.png"/*tpa=http://www.worldtea-house.com/statics/images/sc8.png*/) no-repeat;margin:0 auto 60px}
+.sc8 .n2{background-position:-200px 0}
+.sc8 .n3{background-position:-400px 0}
+.sc8 .n4{background-position:-600px 0}
+.sc8 .n5{background-position:-800px 0}
+.sc8 a h3{font-size:20px;overflow:hidden;line-height:30px;font-weight:normal;color:#333}
+.sc8 i{font-family:"Impact","Trebuchet MS", Arial, Helvetica, sans-serif;font-size:30px;font-style:normal;color:#c6a16a;line-height:40px}
+.sc8 a:hover h3{color:#c67e12}
+.sc8 p{font-size:14px;line-height:24px;color:#999}
+.sc8 a:hover p{color:#666}
+
+/*---首页新闻---*/
+.hd04{background:url("../images/i8.png"/*tpa=http://www.worldtea-house.com/statics/images/i8.png*/) no-repeat center 0;height:230px;margin:100px 0 40px;text-align:center}
+.hd04 i{border-bottom:1px solid #bfc5c8;position:relative;top:102px;display:block}
+.hd04 a{width:818px;padding-top:88px;height:85px;overflow:hidden;margin:0 auto;display:block}
+.hd04 span{font-size:20px;margin:0 auto 30px;background:#fff;padding:0 10px 1px;position:relative}
+.hd04 a:hover span{background:#8a979f;color:#fff;border-radius:5px}
+.hd04 h2{margin-top:70px}
+.h0{margin-top:50px}
+.news .bd{height:500px;overflow:hidden}
+.news .bd img{width:1180px;height:500px;display:block}
+.news .hd{width:1182px}
+.news .hd li{width:393px;padding:10px 0;border-right:1px solid #ccc;float:left;text-align:center;margin-top:30px}
+.news .hd a h3{font-size:18px;color:#333;line-height:30px;height:30px;overflow:hidden;font-weight:normal;cursor:pointer}
+.news .hd a:hover h3,.news .on a h3{color:#c67e12}
+.news .hd a i{color:#999;line-height:20px;font-style:normal;font-size:9px\9;display:block}
+.news .hd a p{color:#666;line-height:26px;padding:10px 50px 0;cursor:pointer;font-size:14px}
+/*---内页新闻---*/
+.news2 li{margin-bottom:80px;text-align:center}
+.news2 a{background:#eee;padding-bottom:40px;display:block}
+.news2 img{width:1180px;height:500px;display:block}
+.news2 a h3{margin-top:20px;font-size:24px;color:#333;line-height:40px;font-weight:normal;cursor:pointer}
+.news2 a i{color:#999;line-height:20px;font-style:normal;display:block;cursor:pointer}
+.news2 a:hover h3,.news2 a:hover i{color:#c60}
+.news2 a:hover{background:#ffc}
+
+/*---广告2---*/
+.ap2{height:330px;overflow:hidden;margin-top:70px;padding-top:215px;background-position:center 0;background-repeat:no-repeat}
+.ap2 a{display:block;padding-top:340px;width:1000px;margin:0 auto}
+
+/*---景点推荐---*/
+.h1{background-position:center -230px}
+.h1 a{width:764px}
+.sc9 .bd{height:600px;overflow:hidden;position:relative}
+.sc9 .bd li{float:left;width:100%;height:100%;background-position:center 0;background-repeat:no-repeat}
+.sc9 .bd a{display:block;height:100%;width:1000px;margin:0 auto}
+.sc9 .hd{position:relative;height:195px;overflow:hidden}
+.sc9 .hd i{border-bottom:1px solid #bfc5c8;position:absolute;bottom:2px;width:100%;display:block}
+.sc9 .hd span{display:block;background:#fc0;width:220px;height:5px;position:absolute;bottom:0;font-size:0;line-height:0}
+.sc9 .hd li{margin-right:20px;float:left;text-align:center}
+.sc9 .hd h3{font-size:18px;font-weight:normal;line-height:58px}
+.sc9 .hd a:hover,.sc9 .hd .on a{color:#c67e12}
+.sc9 .hd img{width:220px;height:110px;display:block}
+/*---首页作品--*/
+.h7{background-position:center -460px}
+.h7 a{width:724px}
+.sc1 li{float:left;margin:0 12px 40px 0;width:286px}
+.sc1 li a{display:block}
+.sc1 img,.sc1 .t1{width:286px;height:404px;display:block;overflow:hidden}
+.sc1 a .t1{color:#fff}
+.sc1 .t1{position:relative;left:0;background:#000;text-align:center}
+.sc1 .t1 span{position:absolute;left:0;top:-259px;width:100%;height:259px;cursor:pointer;background:url("../images/chloe.png"/*tpa=http://www.worldtea-house.com/statics/images/chloe.png*/) no-repeat center 0}
+.sc1 .t1 h3{font-size:16px;margin:165px 0 10px}
+.sc1 .t1 i{font-style:normal;line-height:22px;display:block}
+.sc1 .t1 p{position:absolute;bottom:-32px;font-size:9px\9;width:290px;text-transform:uppercase}
+.sc1 .t2{text-align:right;margin-left:64px}
+.sc1 .t2 h3{border-bottom:1px solid #e6e6e6;font-size:18px;line-height:34px;height:34px;overflow:hidden}
+.sc1 h3,.sc1 h4{font-weight:normal}
+.sc1 .t2 span{font-family:Georgia, "Times New Roman", Times, serif;font-size:16px;line-height:28px;font-style:italic;color:#aaa}
+.sc1 .t2 h4{font-size:14px;line-height:20px;color:#aaa;display:block;height:20px}
+.sc1 a:hover .t2 span,.sc1 a:hover .t2 h4{color:#666}
+#sc1 li{margin-right:14px;width:384px}
+#sc1 .t1 span{top:-317px;height:317px;background:url("../images/chloe2.png"/*tpa=http://www.worldtea-house.com/statics/images/chloe2.png*/) no-repeat center 0}
+#sc1 .t1 h3{font-size:24px;margin:200px 0 10px}
+#sc1 .t1 i{font-size:16px}
+#sc1 img,#sc1 .t1{width:384px;height:556px}
+
+/*---微电影--*/
+.h2{background-position:center -690px;margin-top:60px}
+.h2 a{width:509px}
+.sc2 li{float:left;width:384px;margin:0 14px 20px 0}
+.sc2 li a{display:block}
+.sc2 img,.sc2 .t1{width:384px;height:215px;display:block;overflow:hidden}
+.sc2 .t1{position:relative;background:#000}
+.sc2 .t1 span{position:absolute;left:50%;top:50%;width:73px;height:73px;cursor:pointer;background:url("../images/p1.png"/*tpa=http://www.worldtea-house.com/statics/images/p1.png*/) no-repeat;margin:-36px 0 0 -36px}
+.sc2 .t2{text-align:right;margin-left:64px}
+.sc2 .t2 h3{border-bottom:1px solid #e6e6e6;font-size:18px;line-height:34px;height:34px;overflow:hidden}
+.sc2 h3,.sc2 h4{font-weight:normal}
+.sc2 .t2 span,.sc2 .t2 h4{font-family:Georgia, "Times New Roman", Times, serif;font-size:14px;line-height:22px;font-style:italic;color:#aaa}
+.sc2 a:hover .t2 span,.sc2 a:hover .t2 h4{color:#666}
+.s2{position:relative}
+.s2 a{display:block;background:#000}
+.s2 i{cursor:pointer;width:178px;height:178px;margin:-89px 0 0 -89px;display:block;background:url("../images/p2.png"/*tpa=http://www.worldtea-house.com/statics/images/p2.png*/) no-repeat;position:absolute;left:50%;top:50%}
+.s2 img{width:1180px;height:625px;display:block}
+.s2 span{background:url("../images/ap.png"/*tpa=http://www.worldtea-house.com/statics/images/ap.png*/) no-repeat center bottom;height:123px;width:1180px;position:absolute;bottom:0;_bottom:-1px}
+/*---客片---*/
+.h3{background-position:center -920px}
+.h3 a{width:719px}
+.mo3{position:relative;text-align:center;clear:both;margin-top:40px;_height:37px}
+.mo3 span{border-bottom:1px solid #bfc5c8;width:100%;display:block;position:absolute;bottom:0;left:0}
+.mo3 a{position:relative;z-index:1}
+.mo3 i,.mo3 b{padding:0 20px;display:inline-block;cursor:pointer;line-height:36px;height:36px;font-size:18px}
+.mo3 i{background:#8a979f;color:#eee;font-family:Georgia, "Times New Roman", Times, serif}
+.mo3 b{background:#c6a16a;font-weight:normal;color:#fff;position:relative;bottom:-1px;_bottom:1px}
+.mo3 a:hover i{background:#97a5ae}
+.mo3 a:hover b{background:#d7af73}
+.mo3 a:hover{color:#fff}
+
+/*---微博---*/
+.wb{position:relative;overflow:hidden;margin-top:100px;height:1121px}
+.wb q{background:#8a979f;height:760px;position:absolute;bottom:0;width:100%;left:0;display:block;z-index:-1}
+.wb .hd04{background-position:center -1840px;margin:49px auto 126px}
+.wb .hd04 a{width:574px;padding-top:83px;height:93px}
+.wb .r{width:820px;float:right}
+.sc5{position:relative}
+.sc5 b{position:absolute;right:10px;top:0;border-right:1px solid #b9c1c5;height:670px}
+.sc5 .hd{position:absolute;right:0;top:15%;z-index:1;width:21px;background:#8a979f;padding:10px 0}
+.sc5 .hd li{display:block;cursor:pointer;width:21px;height:21px;background:url("../images/ulink2.png"/*tpa=http://www.worldtea-house.com/statics/images/ulink2.png*/) no-repeat}
+.sc5 .hd li.on{background-position:-21px 0}
+.sc5 .bd li{clear:both;position:relative;margin:0 0 42px 58px;overflow:hidden;line-height:24px;width:700px}
+.sc5 .n,.sc5 .n s,.sc5 span{width:108px;height:108px;display:block;overflow:hidden}
+.sc5 .n{background:#000}
+.sc5 .n s{background:url("../images/face3.png"/*tpa=http://www.worldtea-house.com/statics/images/face3.png*/) no-repeat center center;position:absolute;left:0;top:108px}
+.sc5 img{width:100px;height:100px;margin:4px 8px 0 4px}
+.sc5 span{background:url("../images/face.png"/*tpa=http://www.worldtea-house.com/statics/images/face.png*/) no-repeat;position:absolute;left:0;top:0;cursor:pointer;height:140px}
+.sc5 .txt{float:left;width:518px;padding:23px 20px 0 50px;height:114px;background:url("../images/face2.png"/*tpa=http://www.worldtea-house.com/statics/images/face2.png*/) no-repeat;font-size:14px;line-height:30px;cursor:pointer}
+.sc5 a{color:#fff;float:left}
+.sc5 h3{color:#ff6;font-weight:normal;font-size:18px}
+.sc5 a:hover p{color:#ff9}
+.wb .l{background:url("../images/iphone.png"/*tpa=http://www.worldtea-house.com/statics/images/iphone.png*/) no-repeat;height:1060px;float:left;width:352px}
+.wb .l iframe{margin:120px 0 0 26px}
+.wb .l span{cursor:pointer;margin:148px auto 0;width:192px;height:273px;display:block;text-indent:-100px;overflow:hidden}
+/*---内页---*/
+.wb2{margin-top:30px;overflow:visible}
+.wb2 q{height:1400px;top:355px;bottom:auto}
+.wb2 .page a:hover{background:#ff9;color:#333}
+.wb2 .page{margin-left:118px}
+.wb2 .page i{margin:0 5px;color:#fff}
+.wb2 .page_t{padding:0 0 40px}
+/*--首页套系--*/
+.h4{background-position:center -1150px}
+.h4 a{width:620px}
+.sc3 li{float:left;margin-right:28px;display:inline;position:relative;text-align:center}
+.sc3 li a{display:block}
+.sc3 img{width:274px;height:274px;display:block}
+.sc3 span{width:274px;height:333px;display:block;background:url("../images/pr.png"/*tpa=http://www.worldtea-house.com/statics/images/pr.png*/) no-repeat;position:absolute;left:0;top:0}
+.sc3 a:hover span{background-position:-278px 0}
+.sc3 h3{font-size:20px;width:274px;overflow:hidden;height:30px;margin:78px 0 12px;font-weight:normal;color:#333}
+.sc3 i{height:40px;font:35px/40px Georgia, "Times New Roman", Times, serif;font-style:italic;background:url("../images/pr2.png"/*tpa=http://www.worldtea-house.com/statics/images/pr2.png*/) no-repeat;padding-left:96px;color:#657681}
+.sc3 a:hover i,.sc3 a:hover h3{color:#c67e12}
+
+/*---最新资讯---*/
+.h5{background-position:center -1380px}
+.h5 a{width:557px}
+.sc6{background:#8a979f;height:480px;padding:50px 0;overflow:hidden}
+.sc6 .hd{width:360px;margin:0 auto}
+.sc6 .hd li{float:left;margin:0 5px}
+.sc6 .hd a{color:#fff;display:block;padding:1px 17px;font-size:18px;line-height:36px;text-align:center}
+.sc6 .hd a:hover,.sc6 .on a{border:1px solid #fff;padding:0 16px;border-radius:6px}
+.sc6 .bd{clear:both;padding-top:50px}
+.sc6 .bd li{float:left;margin:0 28px 70px 0;display:inline;position:relative;text-align:center;background:#fff;/*border-radius:10px;*/position:relative;width:274px}
+.sc6 .bd li a{display:block;color:#657681}
+.sc6 .bd li a:hover{color:#c67e12;background:url("../images/new2.png"/*tpa=http://www.worldtea-house.com/statics/images/new2.png*/) no-repeat right bottom}
+.sc6 img{width:274px;height:180px;display:block}
+.sc6 .bd h3{font-size:16px;overflow:hidden;height:40px;line-height:40px;font-weight:normal;background:#657681;color:#fff}
+.sc6 .bd a:hover h3{background:#7c8f9a}
+.sc6 .bd span{display:block;font-family:Georgia, "Times New Roman", Times, serif;font-size:16px;margin-top:20px;font-style:italic;color:#657681}
+.sc6 .bd p{line-height:26px;padding:15px 20px 30px;height:80px;font-size:14px;cursor:pointer}
+.sc6 i,.sc6 b{background:url("../images/new.png"/*tpa=http://www.worldtea-house.com/statics/images/new.png*/) no-repeat 0 bottom;height:10px;width:100%;position:absolute;left:0;cursor:pointer;font-size:0;line-height:0}
+.sc6 i{top:0}
+.sc6 b{background-position:0 0;bottom:0;_bottom:-1px}
+
+/*---品牌优势---*/
+.h6{background-position:center -1610px}
+.h6 a{width:732px}
+.sc7 li{float:left;margin-right:28px;width:274px;display:inline;position:relative;text-align:center}
+.sc7 span{width:190px;height:217px;display:block;background:url("../images/kb.png"/*tpa=http://www.worldtea-house.com/statics/images/kb.png*/) no-repeat;margin:0 auto 20px}
+.sc7 .n2{background-position:-200px 0}
+.sc7 .n3{background-position:-400px 0}
+.sc7 .n4{background-position:-600px 0}
+.sc7 a h3{font-size:20px;overflow:hidden;height:30px;line-height:30px;font-weight:normal;color:#333}
+.sc7 a:hover h3{color:#c67e12}
+.sc7 p{font-size:14px;line-height:30px;color:#657681}
+
+/*---列表页客片---*/
+.nav4{font-size:18px;text-align:center;margin:0 0 50px}
+.nav4 li{margin:0 5px;display:inline}
+.nav4 li a{padding:0 15px;display:inline-block;line-height:38px;border:1px solid #ccc;border-radius:6px}
+.nav4 .on a{background:#cfa972;border:1px solid #cfa972;color:#fff}
+.nav4 .on a:hover{background:none}
+.nav4 li a:hover{border:1px solid #c67e12;color:#c67e12}
+/*---分页--*/
+.page{clear:both;padding-top:20px;color:#ccc;text-align:center;font-size:14px;line-height:32px}
+.pw{position:relative;top:30px;z-index:1;height:10px}
+.page b,.page strong{font-weight:normal}
+.page i{margin:0 8px}
+.page b{position:relative;left:-15px}
+.page a,.page span,.page strong{margin:0 2px;padding:6px 12px;border-radius:3px;background:#eee}
+.page a{color:#333}
+.page strong{background:#c96;color:#fff}
+.page a:hover{background:#999;color:#fff}
+
+.sc0 ul{padding:0 0 30px 0;width:1202px}
+.sc0 li{width:580px;float:left;margin:0 20px 25px 0;display:inline;position:relative;overflow:hidden}
+.sc0 li a{display:block;color:#999}
+.sc0 img{width:580px;height:385px;display:block}
+.sc0 ins{position:absolute;top:225px;left:-580px;width:100%;cursor:pointer;background:url("../images/han2.png"/*tpa=http://www.worldtea-house.com/statics/images/han2.png*/) no-repeat 30px 0;height:156px;border-bottom:5px solid #3cf}
+.sc0 h3{font-size:16px;font-weight:normal;line-height:40px}
+.sc0 a:hover h3{color:#d07e12}
+.sc0 i{font-style:normal;margin:5px 0;line-height:20px;font-family:Georgia, "Times New Roman", Times, serif;float:right;text-align:right}
+.sc0 p{border-top:1px solid #e6e6e6;padding-top:5px;text-align:right}
+.sc0 a:hover p{color:#f90}
+.sc0 p,.sc0 span{display:block;overflow:hidden}
+
+/*---首页友情链接---*/
+.link{overflow:hidden;padding:40px 0 20px;line-height:18px;color:#999}
+.link .hd{float:left;margin-right:10px;text-align:right}
+.link .bd a{color:#999;margin-right:4px}
+.link .bd a:hover{color:#333;text-decoration:underline}
+.link .link_u{cursor:pointer}
+.link .link_u:hover{color:#f60;text-decoration:underline}
+
+/*---底部---*/
+.f0{background:url("../images/f0.png"/*tpa=http://www.worldtea-house.com/statics/images/f0.png*/) no-repeat center 0;height:122px;clear:both}
+.f1{background:#e8d9c3 url("../images/f1.png"/*tpa=http://www.worldtea-house.com/statics/images/f1.png*/) no-repeat center 0;height:351px}
+.f1 span{display:block;padding-top:44px}
+.f1 i{float:left;display:block;width:430px;height:143px;margin-left:109px;cursor:pointer}
+.f1 i.r{margin-left:100px;width:490px}
+.f2{background:#8a979f url("../images/map.png"/*tpa=http://www.worldtea-house.com/statics/images/map.png*/) no-repeat center 0;height:632px}
+.f2 ul{position:relative}
+.f2 li{position:absolute;font-size:14px}
+.f2 .n0{top:311px;left:936px}
+.f2 .n1{top:402px;left:941px;font-size:16px}
+.f2 .n2{top:300px;left:1026px}
+.f2 .n3{top:331px;left:846px}
+.f2 .n4{top:353px;left:835px}
+.f2 .n5{top:256px;left:943px;font-size:12px}
+.f2 .n6{top:248px;left:1044px}
+.f2 .n7{top:218px;left:1054px}
+.f2 .n8{top:289px;left:848px}
+.f2 .n20{top:381px;left:781px}
+.f2 .n21{top:201px;left:569px}
+.f2 .n22{top:309px;left:31px}
+.f2 a{color:#ff9;padding:0 3px;border-radius:3px}
+.f2 .n20 a,.f2 .n21 a,.f2 .n22 a{color:#fff}
+.f2 a:hover{color:#333;background:#ff9}
+.f3{background:url("../images/f3.png"/*tpa=http://www.worldtea-house.com/statics/images/f3.png*/) no-repeat center 0;height:445px}
+.f3 .bd{width:812px;height:293px;padding-top:60px;margin:0 auto;overflow:hidden}
+.f3 .l{width:360px;height:170px;margin-left:20px;overflow:hidden}
+.f3 .l a{display:block;padding-top:180px}
+.f3 ul{float:right;width:360px}
+.f3 li{background:url("../images/f3_../images/i.png"/*tpa=http://www.worldtea-house.com/statics/images/f3_../images/i.png*/) no-repeat;font-size:16px;line-height:40px;height:40px;overflow:hidden}
+.f3 .n2{background-position:0 -40px}
+.f3 .n3{background-position:0 -80px}
+.f3 .n4{background-position:0 -120px}
+.f3 li a{color:#fff;padding-left:30px}
+.f3 li a:hover{color:#ff9}
+.f3 .bt{width:92px;height:92px;margin:0 auto;overflow:hidden}
+.f3 .bt a{display:block;padding-top:95px}
+.f4{padding:20px 0 0;height:150px;margin:0 auto;line-height:30px;clear:both;text-align:center;font-size:14px;background:#fff}
+.f4 a:hover{text-decoration:underline}
+.f4 a.ilank{padding:0 5px}
+.f4 a.ilank:hover{color:#fff;background:#333;border-radius:3px}
+.f4 i{font-family:Georgia, "Times New Roman", Times, serif;color:#999;display:block}
+#nav2{background:#657681;height:80px;text-align:center;position:relative}
+#nav2 i{border-bottom:1px solid #75848e;position:absolute;left:0;bottom:0;width:100%}
+#nav2 ul{width:1180px;margin:0 auto}
+#nav2 li{float:left;position:relative}
+#nav2 a{display:block;float:left;height:80px;color:#fff;width:116px;position:relative}
+#nav2 a:hover{height:79px;text-decoration:none;border-bottom:1px solid #fc6;background:#515e67}
+#nav2 b{font-weight:normal;font-size:16px;margin:20px 0 5px;display:block;position:relative}
+#nav2 a span{font-size:9px\9;line-height:12px;display:block;font-weight:normal;cursor:pointer;position:relative;color:#c5c9cb}
+.baikf{display:block;margin-top:20px}
+/*.baikf img{display:none}*/
+
+/*---作品列表---*/
+.wrap{width:930px;margin:18px auto 0}
+.main{width:940px;float:right;overflow:hidden}
+.main .hd{height:27px;padding-top:5px;line-height:27px;color:#c67e12;border-bottom:1px solid #dedede}
+.main .hd h2{border-bottom:1px solid #c67e12;float:left;padding:0 5px;font-size:14px}
+.main .hd span{float:right;color:#999;background:url("../images/ico_10.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico_10.gif*/) no-repeat 0 10px;display:block;padding:0 10px 0 13px}
+.main .hd span a{margin-right:5px}
+.main .hd span a:hover{text-decoration:underline}
+.main .hd span strong{font-weight:normal;margin-left:5px;color:#666}
+
+/*---侧栏分类---*/
+.side{width:210px;background:url("../images/ico_8.jpg"/*tpa=http://www.worldtea-house.com/statics/images/ico_8.jpg*/) no-repeat right 0}
+.md02{text-align:right;background:url("../images/ico_7.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico_7.gif*/) no-repeat 8px 34px}
+.md02 .hd{height:50px;line-height:50px;padding:10px 15px 0 0; position:relative}
+.md02 .hd p{position:absolute;left:-11px;top:0;background:url("../images/i6.gif"/*tpa=http://www.worldtea-house.com/statics/images/i6.gif*/) no-repeat;width:11px;height:316px}
+.md02 .hd h3{font-size:30px;color:#ccc;font-family:Copperplate Gothic Light,"Times New Roman", Times, serif;font-weight:normal}
+.md02 .hd h3 a{color:#c67e12}
+.md02 .hd h3 a:hover{color:#f60}
+.md02 .bd{padding-bottom:23px}
+.nav2{padding:16px 14px 0;overflow:hidden}
+.nav2 li{clear:both}
+.nav2 a{color:#333;display:block;height:28px;line-height:28px;padding-right:18px;overflow:hidden;margin-bottom:2px}
+.nav2 a:hover,.nav2 .on a{color:#fff;background:#666 url("../images/ico16.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico16.gif*/) no-repeat}
+.nav2 a span{color:#666;margin-right:8px}
+.nav2 a:hover span,.nav2 .on span{color:#fff}
+/*.nav2 .nh a{margin-top:-3px}*/
+/*---侧栏地址---*/
+.bd01{padding-top:45px;zoom:1;background:url("../images/ico_7.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico_7.gif*/) no-repeat 8px -5px}
+.md03{height:445px;text-align:right;overflow:hidden;padding:0 19px 0 0}
+.te{padding-bottom:20px;color:#000;line-height:22px}
+.te span{font-size:18px;font-family:AlternateGothic2BTRegular,Tahoma,sans-serif;position:relative;top:2px}
+.md03 p{line-height:22px}
+.qa{float:right;padding:5px 0 20px}
+.qa li{width:32px;float:left;display:inline;text-align:center;background:url("../images/m.gif"/*tpa=http://www.worldtea-house.com/statics/images/m.gif*/) no-repeat;margin-left:10px}
+.qa .w{background-position:-32px 0}
+.qa .x{background-position:-64px 0}
+.qa .y{background-position:-96px 0}
+.qa a{width:32px;display:block}
+.qa i{padding-top:33px;display:block}
+.qa a span{color:#393;display:block;background:#fff;font-size:11px;line-height:9px;height:11px;cursor:pointer}
+.qa a:hover span{color:#fff;background:#393}
+#searchbox{background:url("../images/search.gif"/*tpa=http://www.worldtea-house.com/statics/images/search.gif*/) no-repeat 0 center;width:165px;height:22px;display:block;margin:0 0 15px 24px}
+#searchbox .textfield{border:0;width:113px;color:#666;padding:2px 0 2px 3px;line-height:18px;letter-spacing:-1px;background:none}
+#searchbox .button{background:none;border:0;width:45px;height:16px;cursor:pointer}
+
+/*---作品列表---*/
+/*.works .bd{padding:0 0 10px;overflow:hidden;clear:both}
+.works .page{border-top:1px solid #dedede;padding-top:10px}
+.page{margin:12px 12px 30px}
+.hd01{background:url(../images/i8_3.png) no-repeat 0 -135px;height:90px;overflow:hidden;margin:0 0 25px 0;border-bottom:1px solid #ddd}
+.hd02{background-position:0 0}
+.hd01 h2{height:38px;overflow:hidden}
+.hd01 h2 span{padding-top:48px;display:block}
+.hd01 ul{float:right;margin-right:60px}
+.hd01 li{float:left;margin:12px 10px 0 0}
+.hd01 li a{width:64px;height:24px;line-height:24px;text-align:center;display:block}
+.hd01 li a:hover,.hd01 .current a{color:#fff;background:#c67e12 url(../images/c5.gif) no-repeat}*/
+/*---拍摄花絮---*/
+.bd3 .hd{margin:5px 20px 10px 8px;line-height:22px}
+.bd3 .hd h2{font-weight:normal;font-size:16px; display:inline}
+.bd3 .hd h2 a{color:#c67e12}
+.bd3 .hd a:hover{text-decoration:underline}
+.bd3 .hd i{text-transform:uppercase;font-style:normal;display:inline;font-size:9px\9}
+.bd3 .hd span{float:right;font-size:9px\9}
+.bd3 .sc4{padding-left:8px;clear:both}
+.bd3 .sc4 li{margin-bottom:20px}
+
+/*--新闻列表--*/
+.list04{padding:25px 15px 10px}
+.list04 li{line-height:30px;height:30px;overflow:hidden;padding:0 15px;border-bottom:1px dotted #ccc;background:url("../images/ico_11.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico_11.gif*/) no-repeat 4px -21px}
+.list04 li span{float:right}
+.list04 li a{font-size:14px}
+.i5,.i10,.i15,.i20,.i25{margin-bottom:20px}
+
+/*---图文列表---*/
+.list_p{padding:20px 0 0 10px;margin-right:12px}
+.list_p li{border-bottom:1px dotted #cecece;padding:10px 0 15px;position:relative;clear:both;overflow:hidden}
+.list_p img{width:200px;height:150px;float:left;margin:5px 10px 0 0}
+.list_p h3{line-height:30px;height:30px;overflow:hidden;color:#c67e12;cursor:pointer;font-size:16px;font-weight:normal}
+.list_p a:hover h3{color:#f90}
+.list_p a:hover{text-decoration:none}
+.list_p h3 span{font-size:12px;color:#999;margin-left:10px;font-weight:normal}
+.list_p p{line-height:24px;margin-top:5px;font-size:14px}
+.list_p .p3{background:url("../images/i18.png"/*tpa=http://www.worldtea-house.com/statics/images/i18.png*/) no-repeat;position:absolute;top:15px;left:0;width:200px;height:150px;display:block;cursor:pointer}
+.list_p a.more{color:#fff;background:url("../images/more2.gif"/*tpa=http://www.worldtea-house.com/statics/images/more2.gif*/) no-repeat 0 0;display:block;width:42px;padding-left:5px;height:13px;line-height:15px;overflow:hidden;position:absolute;top:110px;right:10px}
+.list_p a.more:hover{text-decoration:none;color:#ff0}
+
+
+/*--普通正文页--*/
+.cntL{clear:both;overflow:hidden}
+.lred{color:#c46200}
+.lred:hover{color:#f90;text-decoration:underline}
+.main .cntL_hd{text-align:center;padding:10px 0}
+.cntL_hd h1{font-size:24px;line-height:40px;color:#333;font-family:Microsoft Yahei,黑体;font-weight:normal;letter-spacing:1px}
+.cntL_hd h5{font-weight:normal;color:#999}
+.cntL_bd{font-size:14px;line-height:180%;text-align:left;padding:10px 0;margin:0 auto;overflow:hidden;clear:both}
+.main .cntL_bd{padding:20px 0 10px}
+.main .cntL_bd img{vertical-align:top}
+.cntL_bd a{color:#F60}
+.cntL_bd a:hover{text-decoration:underline}
+.Content-body{margin:0 18px;border-top:1px dashed #e9ebef;padding-top:20px}
+.Content-body img{margin:0 auto 40px;display:block;border:5px solid #eef1f5}
+img.prh{margin:0 auto 20px;border:none;padding:0}
+.cntL_bd img{background:none}
+/*.cntL_bd p{margin:0 0 20px}*/
+.cnt_tag{height:35px;line-height:35px;clear:both}
+.tag{float:left;text-indent:15px}
+.tag,.tag a{color:#999;margin-right:10px}
+.tag a:hover{color:#000}
+.ContentAuthor{color:#999;font-weight:normal;text-align:right;margin-right:10px}
+.post-nav{border-top:1px dashed #f4f4f4;border-bottom:1px solid #f4f4f4;clear:both;height:32px;line-height:32px;overflow:hidden;background:#fbfbfb;}
+.post-nav .l{float:left;padding-left:10px;width:285px;}
+.post-nav .r{float:right;padding-right:10px;width:285px;text-align:right}
+.more_d{color:#999}
+.more_d:hover{color:#f90}
+/*---宽屏正文页---*/
+.main_p{margin:0 auto;clear:both}
+.main_p .hd{border-bottom:1px dashed #e9ebef;padding:10px 24px;color:#666;background:url("../images/ico_10.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico_10.gif*/) no-repeat 10px 15px}
+.main_p .hd a:hover{text-decoration:underline}
+.main_p .cntL_hd{padding:0 18px;height:110px}
+.cntL_hd .p2{background:url("../images/i19.png"/*tpa=http://www.worldtea-house.com/statics/images/i19.png*/) no-repeat;position:absolute;top:5px;left:0;width:70px;height:92px;display:block}
+.r01{float:right;height:74px;width:105px;margin:12px 30px 0 0;overflow:hidden}
+.r01 a{width:42px;padding-top:76px;display:block;filter:alpha(opacity=70);opacity:0.70;float:left}
+.r01 a:hover{filter:alpha(opacity=100);opacity:1}
+.r01 .up{background:url("../images/nav_c.gif"/*tpa=http://www.worldtea-house.com/statics/images/nav_c.gif*/) no-repeat -7px 0}
+.r01 .down{background:url("../images/nav_c.gif"/*tpa=http://www.worldtea-house.com/statics/images/nav_c.gif*/) no-repeat -59px 0;margin-left:10px}
+.cntL_hd .l{float:left;padding:5px 0 0;width:780px;position:relative}
+.cntL_hd .p1{width:70px;height:88px;float:left}
+.cntL_hd .l h1,.l h5{float:left;width:600px}
+.cntL_hd .l h1{padding:0 0 2px 17px;color:#c67e12;line-height:30px}
+.cntL_hd .l h5{line-height:24px;padding-left:18px;height:24px}
+.sia{margin:0 8px 0 0;position:relative;top:3px}
+/*----宽屏展示---*/
+.md08{overflow:hidden;margin:0 auto;background:#fff;clear:both}
+.md08 .bd{background:url("../images/i24_1.gif"/*tpa=http://www.worldtea-house.com/statics/images/i24_1.gif*/) no-repeat center bottom;clear:both;margin:0 auto 20px;overflow:hidden;padding:5px 15px 30px}
+.l1{float:left;position:relative}
+.l1 img,.l1 span{display:block;height:240px;width:160px}
+.l1 span{position:absolute;background:url("../images/i24.png"/*tpa=http://www.worldtea-house.com/statics/images/i24.png*/) no-repeat}
+.l2{float:left;line-height:24px;margin-left:20px}
+.l2 h1{font-family:Microsoft Yahei,黑体;color:#c46200;font-size:24px;line-height:30px;margin:0 0 8px;font-weight:normal}
+.main_p .cnt_tag{background:#E9EBEF}
+.main_p .cntL{border:1px solid #E9EBEF;border-top:none}
+/*--视频--*/
+#g_mv{width:1180px;height:704px;margin:0 auto 30px}
+.mv_t{width:970px;font-size:14px;margin:5px auto 20px;color:#666}
+.mv_t b{color:#c60;line-height:1.8em;font-weight:normal}
+.lf08{font-size:18px;line-height:220%;padding-bottom:30px;text-align:center}
+.lf08 img{vertical-align:top;margin:20px auto}
+/*---作品小图列表---*/
+.sc4{padding:0 0 20px 15px;clear:both;overflow:hidden}
+.sc4 li{float:left;width:130px;margin:0 11px 11px 0;display:inline}
+.sc4 img{width:130px;height:130px;display:block}
+.sc4 a:hover img{filter:Alpha(Opacity=60);opacity:0.6}
+.sc4 a span,.sc4 a:hover span{position:relative;margin:-130px 0 0 0;float:left;background:url("../images/i.png"/*tpa=http://www.worldtea-house.com/statics/images/i.png*/) no-repeat;_background:url("../images/i.gif"/*tpa=http://www.worldtea-house.com/statics/images/i.gif*/) no-repeat;width:130px;height:130px;cursor:pointer}
+/*---价格表页---*/
+.lis1 a.more{top:55px}
+.lis1 p{margin-right:150px}
+.p4{margin:10px 0;font-size:14px;line-height:30px;float:right;font-style:italic;color:#c67e12;margin:0 20px 0 0}
+.p4 b{font-size:30px;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;margin-right:3px}
+.md_pr{background:#fafafa url("../images/i24_2.gif"/*tpa=http://www.worldtea-house.com/statics/images/i24_2.gif*/) repeat-x 0 bottom;margin:0 auto;overflow:hidden;padding:10px 0 10px 10px}
+.md_pr .l1 img,.md_pr .l1 span{width:240px;height:160px}
+.md_pr .l1 span{position:absolute;background:url("../images/i24_2.png"/*tpa=http://www.worldtea-house.com/statics/images/i24_2.png*/) no-repeat}
+.md_pr .l2 span{margin:10px 0 0;display:block;font-size:14px;line-height:30px;padding:5px 0;border-top:1px dotted #ccc;width:500px;color:#000}
+.md_pr .l2 b{font-style:italic;font-size:30px;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal; margin-right:3px;color:#c67e12}
+.cntL_bd.pri{padding-left:10px}
+.pri img{/*margin:0 auto;*/display:block}
+.pri .b0{border:none;padding:0}
+/*---价格表预订表单---*/
+#btn1{blr:expression(this.onFocus=this.blur());outline:none}
+.BttnE,.BttnC{background:url("../images/btn1.gif"/*tpa=http://www.worldtea-house.com/statics/images/btn1.gif*/) no-repeat;width:142px;height:37px;display:block;overflow:hidden;margin-top:10px}
+.BttnC{background-position:0 -37px}
+#btn1 i{padding-top:40px;display:block}
+
+/*内页相关作品*/
+.art_h4{text-indent:10px;color:#141414; line-height:24px;border-bottom:1px solid #e9ebef; margin:0 10px}
+.art{padding-bottom:10px;padding-left:15px}
+.art li{float:left;margin:10px 17px 10px 0;text-align:center;display:inline}
+.art li a{background:#eee;display:block;float:left;padding:4px 4px 2px;text-decoration:none}
+.art li a:hover{background:#f90;text-decoration:none}
+.art img{background:#fff url("../images/art.gif"/*tpa=http://www.worldtea-house.com/statics/images/art.gif*/) no-repeat center center;display:block;height:60px;width:50px;margin-bottom:1px}
+.art li a:hover img{}
+.art a em{color:#fff;font-style:normal;height:10px;line-height:10px;overflow:hidden;width:50px;font-size:9px\9;letter-spacing:1px;display:block}
+.art a:hover em{color:#fff;cursor:pointer}
+
+/*---相关文章---*/
+.cnt_about{padding:10px 0 10px}
+.cnt_about ul{width:420px;float:right}
+.cnt_about li{line-height:22px;height:22px;overflow:hidden;width:180px;overflow:hidden;float:left;margin:0 5px;background:url("../images/ico_2.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico_2.gif*/) no-repeat 5px 9px;padding-left:16px;display:inline}
+.cnt_about li a{color:#999}
+.cnt_about li a:hover{color:#f90}
+.cnt_about img{width:158px;height:94px;margin-right:10px;display:inline}
+.md_kp .cnt_about ul{width:390px;float:right}
+.md_kp .cnt_about li{width:160px}
+
+/*---热门景点--*/
+.md11{padding:10px 0}
+.md11 a{color:#89672A;text-decoration:underline;margin-right:10px}
+.md11 a:hover{color:#c67e12}
+.hd07{height:32px;overflow:hidden;margin-bottom:10px}
+.hd07 i{float:left;font:normal 300 50px/100% AlternateGothic2BTRegular,Arial,sans-serif;color:#F60;margin:-3px 7px 0 0}
+.hd07 a,.hd07 h1,.hd07 h2{color:#666;font-size:18px;line-height:20px;float:left;font-weight:normal}
+.hd07 a:hover{color:#c67e12;text-decoration:underline}
+.hd07 a span,.hd07 h1 span{display:block;font-size:12px;color:#bebebe;line-height:14px;text-transform:uppercase}
+.i1 i{color:#91abb5}
+.i2 i{color:#b19f7f}
+.i3 i{color:#8ebda6}
+.i4 i{color:#ad809c}
+.i5 i{color:#7cc346}
+.list02{clear:both;padding:20px 0 50px;border-top:1px dotted #ccc;font-size:14px}
+.list02 img{width:940px;height:440px;margin-bottom:10px;display:block}
+.list02 .ii{margin:-58px 0 0}
+.ii{width:44px;height:48px;margin:-48px 0 0;float:right;cursor:pointer}
+a:hover .ii{background:url("i../images/i.png"/*tpa=http://www.worldtea-house.com/statics/css/i../images/i.png*/) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src = '/images/i../images/i.png', sizingMethod = 'scale');position:relative}
+.list02 dl{clear:both;line-height:180%}
+.list02 dt{float:left;width:76px;font-weight:700}
+.list02 dd{margin-left:76px}
+.list02 dd a:hover{text-decoration:underline}
+.bd06{border-top:none;padding-top:10px}
+/*---翻书---*/
+#app{width:684px;height:440px;margin:0 auto}
+a.link01{color:#f00}
+a.link01:hover{text-decoration:underline}
+.hd09{border-bottom:1px dashed #CCC;position:relative;margin-bottom:10px;zoom:1}
+.hd09 h1{margin:0 auto;text-align:center;font-size:26px;padding-bottom:10px;font-weight:normal}
+.hd09 a{position:absolute;right:0;top:10px}
+/*--相关景点--*/
+.list03{padding:20px 0 40px 15px;overflow:hidden}
+.list03 ul{width:330px;float:left}
+.list03 li{line-height:22px;height:22px;overflow:hidden;width:130px;float:left;margin:0 10px 0 0;background:url("../images/ico.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico.gif*/) no-repeat 5px 10px;padding-left:16px}
+.list03 li a{color:#999}
+.list03 li a:hover{color:#f90}
+.list03 b{display:block; line-height:30px;padding-left:10px}
+
+/*---服务报价--*/
+.list05{padding-top:20px}
+.list05 .hd07{margin-bottom:0}
+.list05 li{margin-bottom:40px}
+.list05 img{width:940px;height:440px;background:url("../images/ico15.gif"/*tpa=http://www.worldtea-house.com/statics/images/ico15.gif*/) no-repeat right 0;padding-top:20px;display:block}
+
+/*---分页---*/
+.inside .manu{background:#fff url("../images/manu.jpg"/*tpa=http://www.worldtea-house.com/statics/images/manu.jpg*/) repeat-y 0 0;padding:2px 0 2px 2px;line-height:16px;height:16px}
+.manu{margin:10px 0 5px}
+.manu{clear:both;line-height:16px;height:16px}
+.manu span,.manu i{float:left;padding:0 8px}
+.manu A,.manu strong{margin-right:2px;padding:0 8px;float:left}
+.manu .current,.manu strong{font-weight:700;background:#c67e12;color:#fff}
+.manu .current:hover{color:#fff}
+.manu .disabled{color:#ddd;margin:2px;padding:2px 5px;}
+.manu A:hover,.manu A:active{outline:none;blr:expression(this.onFocus=this.blur());background:#f60; color:#fff}
+.manu input{display:none}
+
+/*---评论--- */
+#gip{color:#c00;font-weight:700;cursor:pointer}
+.face1{background:url("../images/1.gif"/*tpa=http://www.worldtea-house.com/statics/images/1.gif*/)}
+.face2{background:url("../images/2.gif"/*tpa=http://www.worldtea-house.com/statics/images/2.gif*/)}
+.face3{background:url("../images/3.gif"/*tpa=http://www.worldtea-house.com/statics/images/3.gif*/)}
+.face4{background:url("../images/4.gif"/*tpa=http://www.worldtea-house.com/statics/images/4.gif*/)}
+.face5{background:url("../images/5.gif"/*tpa=http://www.worldtea-house.com/statics/images/5.gif*/)}
+.face6{background:url("../images/6.gif"/*tpa=http://www.worldtea-house.com/statics/images/6.gif*/)}
+.face7{background:url("../images/7.gif"/*tpa=http://www.worldtea-house.com/statics/images/7.gif*/)}
+.face8{background:url("../images/8.gif"/*tpa=http://www.worldtea-house.com/statics/images/8.gif*/)}
+.face9{background:url("../images/9.gif"/*tpa=http://www.worldtea-house.com/statics/images/9.gif*/)}
+.face10{background:url("../images/10.gif"/*tpa=http://www.worldtea-house.com/statics/images/10.gif*/)}
+.face11{background:url("../images/11.gif"/*tpa=http://www.worldtea-house.com/statics/images/11.gif*/)}
+.face12{background:url("../images/12.gif"/*tpa=http://www.worldtea-house.com/statics/images/12.gif*/)}
+.face13{background:url("../images/13.gif"/*tpa=http://www.worldtea-house.com/statics/images/13.gif*/)}
+.face14{background:url("../images/14.gif"/*tpa=http://www.worldtea-house.com/statics/images/14.gif*/)}
+.face15{background:url("../images/15.gif"/*tpa=http://www.worldtea-house.com/statics/images/15.gif*/)}
+.face16{background:url("../images/16.gif"/*tpa=http://www.worldtea-house.com/statics/images/16.gif*/)}
+.face17{background:url("../images/17.gif"/*tpa=http://www.worldtea-house.com/statics/images/17.gif*/)}
+.face18{background:url("../images/18.gif"/*tpa=http://www.worldtea-house.com/statics/images/18.gif*/)}
+.face19{background:url("../images/19.gif"/*tpa=http://www.worldtea-house.com/statics/images/19.gif*/)}
+.face20{background:url("../images/20.gif"/*tpa=http://www.worldtea-house.com/statics/images/20.gif*/)}
+.face21{background:url("../images/21.gif"/*tpa=http://www.worldtea-house.com/statics/images/21.gif*/)}
+.face22{background:url("../images/22.gif"/*tpa=http://www.worldtea-house.com/statics/images/22.gif*/)}
+.face23{background:url("../images/23.gif"/*tpa=http://www.worldtea-house.com/statics/images/23.gif*/)}
+.face24{background:url("../images/24.gif"/*tpa=http://www.worldtea-house.com/statics/images/24.gif*/)}
+.face25{background:url("../images/25.gif"/*tpa=http://www.worldtea-house.com/statics/images/25.gif*/)}
+.face26{background:url("../images/26.gif"/*tpa=http://www.worldtea-house.com/statics/images/26.gif*/)}
+.face27{background:url("../images/27.gif"/*tpa=http://www.worldtea-house.com/statics/images/27.gif*/)}
+.face28{background:url("../images/28.gif"/*tpa=http://www.worldtea-house.com/statics/images/28.gif*/)}
+.face29{background:url("../images/29.gif"/*tpa=http://www.worldtea-house.com/statics/images/29.gif*/)}
+.face30{background:url("../images/30.gif"/*tpa=http://www.worldtea-house.com/statics/images/30.gif*/)}
+.comment{line-height:190%;margin:0 auto;clear:both;overflow:hidden;padding:0 20px 40px;background:#E9EBEF}
+.comment .more_t{padding:20px 0 10px}
+.comment .more_t b a{color:#c00;font-size:14px;text-decoration:underline}
+.comment .more_t b a:hover{color:#90c;text-decoration:none}
+.more_c{background:#f90;color:#fff}
+.more_c:hover{background:#c6f;color:#fff}
+/*---回复人数块---*/.comment .more{padding:10px 0}
+/*---100815增加的颜色块---*/
+.comment .more a{background:#90f;color:#fff;padding:0 5px}
+.comment .more img{background:none;margin:3px 3px -3px 0}
+.comment .more a:hover{background:#c90;color:#fff}
+/*---回复人数---*/.comment .more b{position:relative;height:1px}
+/*---回复人数---*/.comment .more b span{position:absolute;width:300px;top:-30px;*top:8px;font:30pt Georgia;}
+/*---块---*/.comment dl{padding-bottom:10px;padding-left:152px;padding-top:10px;background-position:0 11px;background-repeat:no-repeat}
+/*---标题---*/.comment dt{line-height:25px;height:25px;background:#fff url("../images/book.gif"/*tpa=http://www.worldtea-house.com/statics/images/book.gif*/) repeat-x 0 1px;border:1px solid #D2D9E3;padding-top:1px}
+/*---标题加粗---*/.comment dt strong{padding-left:33px;background:url("../images/user.gif"/*tpa=http://www.worldtea-house.com/statics/images/user.gif*/) no-repeat 10px center;color:#c00;padding-right:20px;font-size:14px;letter-spacing:1px}
+/*---时间---*/.comment dt span{font-size:12px;letter-spacing:1px}
+/*---计数---*/.comment dd .n{position:relative;text-align:right;height:1px;}
+/*---计数---*/.comment .n em{font:30pt Georgia;position:absolute;top:-15px;right:12px;height:40px;line-height:50px;color:#D2D9E3}
+/*---计数---*/.comment .n em span{font-size:14pt;font-style:italic}
+/*---内容---*/.comment dd{line-height:180%;font-size:10.5pt;padding:9px 0 10px 14px;background:#fefefe;border:1px solid #D2D9E3;color:#202F46;min-height:179px;_height:179px;line-height:1.8em}
+/*---用户内容---*/.comment dd .u{padding-right:110px}
+/*---回复---*/.comment dd .a{border-top:1px dashed #D2D9E3;margin:13px 0 0 32px;padding:8px 8px 0 70px;min-height:55px;_height:55px;font-weight:700;background:url("../images/admin.gif"/*tpa=http://www.worldtea-house.com/statics/images/admin.gif*/) no-repeat 1px 0}
+/*---回复内容---*/.comment dd b{font-weight:400;color:#FF00AB}
+.comment .post{margin:0 auto;padding-top:20px;width:644px;letter-spacing:1px}
+#pos{margin-top:40px}
+.textarea_top{padding-top:10px}
+.comment label{font-size:14px;height:20px;line-height:20px}
+.comment .input,.comment .input2{padding:4px;height:14px;vertical-align:middle;border:1px solid #d8dfe5;background:#fefefe;color:#555}
+.comment .textarea,.comment .textarea2{border:1px solid #d8dfe5;background:#fff url("../images/book_bg.gif"/*tpa=http://www.worldtea-house.com/statics/images/book_bg.gif*/) no-repeat right bottom;float:left;height:86px;width:520px;margin-top:2px;padding:6px;color:#555}
+.comment .input2,.comment .textarea2{border:1px solid #c60;background:#fff url("../images/btn_bg.gif"/*tpa=http://www.worldtea-house.com/statics/images/btn_bg.gif*/) repeat-x 0 0;color:#09f}
+.comment .btn{float:right;height:104px;width:104px;background:url("../images/btn.gif"/*tpa=http://www.worldtea-house.com/statics/images/btn.gif*/) no-repeat center top;border:none; font-size:14px; font-weight:700; color:#663300;cursor:pointer}
+.comment .btn:hover{background-position:center bottom}
+/*---分隔线---*/.line{/*border-top:1px solid #dbdee5;*/margin:8px 0 5px;line-height:0;overflow:hidden}
+.sunge_i_search{padding:10px 0 10px 20px}
+.sunge_i_search #keyword,.sunge_i_search #searchtype{padding:1px 0 1px 1px;line-height:17px}
+.inside .node{padding:0 20px 0}
+.inside .node .title{line-height:25px;height:25px;font-size:14px;background:#fff url("../images/book.gif"/*tpa=http://www.worldtea-house.com/statics/images/book.gif*/) repeat-x 0 1px;border:1px solid #D2D9E3;padding-top:1px}
+.inside .node .title h2{padding-left:33px;background:url("../images/user.gif"/*tpa=http://www.worldtea-house.com/statics/images/user.gif*/) no-repeat 10px center;color:#90c;padding-right:20px;font-size:14px;letter-spacing:1px}
+.inside .node .description{line-height:180%;font-size:14px;padding:9px 14px 10px;background:#fefefe;border:1px solid #D2D9E3;border-bottom:none;color:#202F46;text-indent:2em}
+.inside .node .info{margin-bottom:20px;background:#fefefe;border:1px solid #D2D9E3;border-top:none;color:#202F46;text-align:right; padding-right:10px;color:#999;padding-bottom:5px}
+
+/*---文章页评论---*/
+.main .comment{background:none;margin:10px auto;padding:0}
+.main .comment .line{margin:5px 0;border:none;border-bottom:1px dashed #E6E6E6}
+.main_p .comment,.book{padding-top:10px;background:#E9EBEF url("../images/comment.gif"/*tpa=http://www.worldtea-house.com/statics/images/comment.gif*/) no-repeat 0 bottom}
+.book{padding-top:10px}
+
+/*---关于我们---*/
+.abt{line-height:2;font-size:16px}
+.abt img{vertical-align:top}
+.q2{background:#ffc;color:#c30;margin-bottom:30px;padding:5px 0 5px 10px}
+.q2 img{margin:6px 0 -6px 6px}
+.bd02{background:url("../images/a2.gif"/*tpa=http://www.worldtea-house.com/statics/images/a2.gif*/) no-repeat right 0;padding-top:10px;line-height:24px}
+
+/*---留言---*/
+#bks{width:886px;height:200px;margin:0 auto}
+/*---活动大图---*/
+.md10{position:relative;overflow:hidden;margin-top:80px}
+.md10 .hd{display:none}
+.md10_bd{width:2000px;position:relative;left:50%;margin-left:-1000px;text-align:center}
+.md10_bd img{vertical-align:top}
+.md10 .post-nav,.md10 .comment{background:none;width:930px;margin:0 auto;text-align:left}
+.md10 .post-nav{background:url("../images/l8_3.png"/*tpa=http://www.worldtea-house.com/statics/images/l8_3.png*/);border:none;margin-top:-2px;color:#fff}
+.md10 .post-nav a{color:#fff}
+.md10 .post-nav a:hover{text-decoration:underline}
+.md10 .comment{padding:20px 0 40px}
+.md10 .post-nav{border-radius:4px}
+.md10 .comment dd{border-radius:0 0 4px 4px}
+.md10 #btn1{margin:10px auto 40px}
+.md10 .BttnE,.md10 .BttnC{background:url("../images/btn1.png"/*tpa=http://www.worldtea-house.com/statics/images/btn1.png*/) no-repeat}
+.md10 .BttnC{background-position:0 -37px}
+.md10 #bx1 .txt{width:600px;margin:30px auto 10px;text-align:left;padding:8px 0 8px 15px;background:#fff;border:1px solid #ccc;border-radius:6px;color:#333}
+
+/*---tag---*/
+.tag2{overflow:hidden}
+.tag2 .hd h2{font-weight:normal;margin-bottom:10px;font-size:18px}
+.tag2 li{float:left;margin-right:20px;line-height:2}

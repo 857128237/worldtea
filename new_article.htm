@@ -1,0 +1,134 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>{dede:field.title/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/chloesy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script><![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+
+<div class="hd04 h0 h5"><i></i><a href="" title="查看更多 最新资讯"><span>多数人知道 / 少数人行动 / 抢定最佳奶茶季！</span>
+  <h2>世界茶饮最新资讯</h2>
+  </a></div>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/nav.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.ilank.js"></script>
+<div style="display:none"></div>
+<div class="wp">
+    <div class="main">
+      <div class="bd">
+        <div class="cntL">
+          <div class="cntL_hd">
+            <h1>{dede:field.title/}</h1>
+            <h5>作者：{dede:field.writer/}　时间：{dede:field.pubdate function="MyDate('Y-m-d',@me)"/}　人气：<span id="count">{dede:field.click}</span>　
+          </div>
+          <div class="cntL_bd">		  
+	          {dede:field.body/}
+		      </div>
+          <div class="manu">{dede:field.body/}</div>
+          <!--/manu 分页-->
+          <div class="cnt_tag">
+            <div class="tag">标签：</div>
+            <h3 class="ContentAuthor">来源：{dede:field.source/}</h3>
+          </div>
+          <div class="post-nav">
+            <div class="l">{dede:prenext get='pre'/}</div>
+          <div class="r">{dede:prenext get='next'/}</div>
+          </div>
+          <!--/post-nav-->
+          <div class="cnt_about">
+            <ul>
+              
+            </ul>
+            
+            <div class="c"></div>
+          </div>
+          <div class="comment">
+            <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"abcd2016"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = '../../../static.duoshuo.com/embed.js'/*tpa=http://static.duoshuo.com/embed.js*/;
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+ 
+          </div>
+          <!--/comment -->
+        </div>
+        <!--/cntL-->
+        <!--/cntL-->
+      </div>
+      <!--/bd-->
+    </div>
+    <!--/main-->
+    <div class="side">
+      <div class="md02">
+      <div class="hd">
+          <p></p>
+          <h3><a href="">NEWS</a></h3></div>
+        <div class="bd">
+          <ul class="nav2">
+            {dede:channel type='son' noself='yes' typeid=4}
+		        <li><a href="[field:typelink/]">[field:typename/]</a></li>
+            {/dede:channel}
+          </ul>
+        </div>
+        <!--/bd-->
+      </div>
+      <!--/md02-->
+      <div class="bd01">
+        <div class="md03">
+          <p>Hotline / 热线电话</p>
+          <div class="te">咨询热线：<span></span><br />
+ 
+          <p>Hours / 服务时间<br />
+            <strong>8:00 AM - 23：00 PM</strong></p>
+        </div>
+        <!--/md03--> 
+      </div>
+      <!--/bd01-->	  
+    </div>
+    <!--/side-->
+	
+<style>
+.leftli{margin: 10px 1px;}
+</style>	
+ <div class="bd01">
+ <h3>世界茶饮热门资讯</h3>
+    <ul>
+      {dede:arclist row=4 titlelen=32 typeid='4' limit='4'}
+      <li class="leftli"><a href="[field:arcurl/]">[field:title/]</a></li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  	
+	
+	
+
+	
+    <div class="c"></div>	
+	
+  </div>
+</div>
+
+  <!--wp-->{dede:include filename="foot.htm"/}
+</body>
+</html>
+
+
+

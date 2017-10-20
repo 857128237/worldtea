@@ -1,0 +1,78 @@
+<div class="f0"></div>
+<!--/foot-->
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.superslide.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/ap.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.mousewheel.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.fancybox.pack.js"></script>
+
+
+<script>
+var qudao="b8dc5150-5829-4532-8a34-0b3f6677aa68";
+var pid="335325cb-9491-4d7e-99c5-c30632218a75";
+var xiangmu = "世界茶饮";
+var type="奶茶";
+</script> 
+<script>
+document.writeln("");
+document.writeln("<style>");
+document.writeln("");
+document.writeln("");
+document.writeln("");
+document.writeln("body{margin:0}");
+document.writeln("");
+document.writeln("ul,li{list-style:none;padding:0;margin:0}");
+document.writeln("");
+document.writeln(".message_pc2{width:206px;position:fixed;z-index:9999;right:10px;bottom:10px;border:3px solid #fa7a00;font-family:Microsoft yahei,arial;font-size:12px;}");
+document.writeln(".message_pc2 .messagetitle{height:30px;line-height:30px;padding-left:10px;background:#fa7a00;color:#fff;font-size:14px;font-weight:bold}");
+document.writeln(".message_pc2 .messageform{padding:15px 13px;height:180px;background:#fffbef;color:#333;}");
+document.writeln(".message_pc2 li{padding:5px 0;clear:both;width:100%;vertical-align:middle}");
+document.writeln(".message_pc2 .bdl,.message_pc2 .bdr{float:left}");
+document.writeln(".message_pc2 .bdl{width:40px;overflow:hidden;}");
+document.writeln(".message_pc2 #vdcode{float:left;}");
+document.writeln(".message_pc2 input,.message_pc2 textarea{width:133px;height:20px;padding:0 0 0 5px;line-height:20px;border:1px solid #ddd;background:#fff;display:block;font-size:12px;font-family:Microsoft yahei,arial;color:#666}");
+document.writeln(".message_pc2 textarea{width:130px;height:70px;padding:3px 3px 3px 5px;overflow:hidden}");
+document.writeln(".message_pc2 input.messagesend{width:100px;height:25px;line-height:23px;cursor:pointer;margin:10px auto 0;background:#f5f5f5}");
+document.writeln("");
+document.writeln("");
+document.writeln("</style>");
+function checkbookForm()
+{
+  if(document.wfform.mobile.value=='')
+  {
+    alert('联系电话必须填写!');
+    wfform.mobile.focus();
+    return false;
+  }
+  if(!(/^1\d{10}$/.test(document.wfform.mobile.value))){ 
+       alert("请填写11位手机号码"); 
+       wfform.mobile.focus();
+       return false; 
+    } 
+  $('#liulanform').submit();
+}
+document.writeln("    window.onload= function() {");
+document.writeln("   lailu = window.location.href;");
+document.writeln("    document.getElementById(\"lailu\").value = lailu;");
+document.writeln("};");
+document.writeln("<div class=\'message_pc2\'>");
+document.writeln("   <div class=\'messagetitle\'>在线留言</div>");
+document.writeln("   <div class=\'messageform\'>");
+document.writeln("      <form id=\"liulanform\" action=\'http://sj.guiyuanp.com/message/orderok8853.asp\' name=\'wfform\' method=\'post\'>");
+document.writeln("  <input name=\"lailu\" type=\"hidden\" id=\"lailu\" value=\"\" />");
+document.writeln("        <input type=\"hidden\" name=\"tel\" value=\""+xiangmu+"\" />");
+document.writeln("  <input type=\"hidden\" name=\"address\" value=\""+type+"\" />");
+document.writeln("       <input type=\"hidden\" name=\"qudao\" value=\""+qudao+"\" />");
+document.writeln("     <input type=\"hidden\"  name=\"p_id\"  value=\""+pid+"\" />");
+document.writeln("          <ul>");
+document.writeln("          <li><span class=\'bdl\'>姓名：</span><input name=\"consignee\" type=\"text\" id=\"consignee\" onfocus=\"if(value=='姓名'){value=''}\" onblur=\"if (value ==''){value='姓名'}\" value=\"姓名\"  maxlength=\"11\" /></li>");
+document.writeln("          <li><span class=\'bdl\'>手机：</span><input name=\"mobile\" type=\"text\" id=\"mobile\" onfocus=\"if(value=='手机'){value=''}\" onblur=\"if (value ==''){value='手机'}\" value=\"手机\" maxlength=\"11\" /></li>");
+document.writeln("            <li><span class=\'bdl\'>留言：</span><textarea name=\"user_note\" id=\"user_note\" onfocus=\"if(value=='我想加盟，请来电话告诉我具体细节'){value=''}\" onblur=\"if (value ==''){value='我想加盟，请来电话告诉我具体细节'}\">我想加盟，请来电话告诉我具体细节</textarea></li>");
+document.writeln("            <li><input type=\"button\" name=\"wfsubmit\" onclick=\"checkbookForm()\"  value=\"立即提交\" class=\"messagesend\" /></li>");
+document.writeln("        </ul>");
+document.writeln("    </form>");
+document.writeln("      </div>");
+document.writeln("");
+document.writeln("  </div>");
+document.writeln("");
+</script>
